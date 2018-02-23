@@ -1,0 +1,12 @@
+{
+    "title":"Your first persona title",
+    "description":"A description for this persona",
+    "img":"illus-using.svg",
+    "themes":{
+        "my-first-theme":{
+            "title": "Your theme title",
+            "img": "illus-using.svg",
+            "description": "A description for this theme"
+        }
+    }
+}
