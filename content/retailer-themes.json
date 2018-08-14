@@ -6,7 +6,7 @@
         "first-steps":{
             "title": "First steps: what is the Onboarder?",
             "img": "illus-using.svg",
-            "description": "Let's start with the beginning and learn more about the Retailer Onboarder: we'll go through the definition, how it works and its link to your beloved PIM."
+            "description": "Let's start with the beginning and learn more about the Retailer Onboarder: we'll go through the definition, how it works and how it's linked to your beloved PIM."
         },
         "supplier-management":{
             "title": "Supplier management",
@@ -21,7 +21,7 @@
         "review-supplier-proposition":{
             "title": "Review supplier proposition",
             "img": "illus-using.svg",
-            "description": "Good news; your suppliers enriched product data. It's time for you to review them!"
+            "description": "Good news! Your suppliers enriched product data. It's time for you to review them!"
         }
 
     }
