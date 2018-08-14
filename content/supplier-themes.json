@@ -1,12 +1,17 @@
 {
-    "title":"Your first persona title",
-    "description":"A description for this persona",
+    "title":"Supplier Onboarder",
+    "description":"Lucky you; one of your retailers sent you an invitation so that you both save time working on product information. Welcome!",
     "img":"illus-using.svg",
-    "themes":{
-        "my-first-theme":{
-            "title": "Your theme title",
+        "themes":{
+        "first-steps":{
+            "title": "First steps: what is the Onboarder?",
             "img": "illus-using.svg",
-            "description": "A description for this theme"
-        }
+            "description": "Let's start with the beginning and learn more about the Supplier Onboarder: what is it? Where do the information come from? What information does it handle?"
+        },
+        "manage-products":{
+            "title": "Manage products",
+            "img": "illus-using.svg",
+            "description": "Time for a deep dive into the Onboarder product management: everything you need to know to become a Supplier Onboarder Jedi is detailed here."
+          }
+      }
     }
-}
