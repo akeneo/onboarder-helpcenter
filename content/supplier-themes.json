@@ -6,7 +6,7 @@
         "first-steps":{
             "title": "First steps: what is the Onboarder?",
             "img": "illus-using.svg",
-            "description": "Let's start with the beginning and learn more about the Supplier Onboarder: what is it? Where do the information come from? What information does it handle?"
+            "description": "Let's start with the beginning and learn more about the Supplier Onboarder: what is it? Where do the data come from? What information does it handle?"
         },
         "manage-products":{
             "title": "Manage products",
