@@ -5,6 +5,8 @@ title: Definition
 popular: false
 ---
 
+![What is the Onboarder ?](../img/onboarder-scheme.svg)
+
 # Title 1
 
 Blabla!
