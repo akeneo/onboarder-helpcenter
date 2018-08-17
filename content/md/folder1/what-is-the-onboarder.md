@@ -5,6 +5,8 @@ title: What is the **Onboarder**
 popular: true
 ---
 
+![What is the Onboarder ?](../img/onboarder-scheme.svg)
+
 # Title 1
 
 Blabla!
