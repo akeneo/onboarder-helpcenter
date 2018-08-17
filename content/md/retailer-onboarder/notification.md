@@ -1,5 +1,5 @@
 ---
-id: notification
+id: notification-retailer
 themes: first-steps
 title: Notification
 popular: false

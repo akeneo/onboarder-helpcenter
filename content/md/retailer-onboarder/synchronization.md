@@ -1,5 +1,5 @@
 ---
-id: synchronization
+id: synchronization-retailer
 themes: first-steps
 title: Product data synchronization
 popular: false
