@@ -1,26 +1,26 @@
 {
     "title":"Retailer Onboarder",
     "description":"Eager to save time to manage your suppliers and collect product information? You will find here all the information to easily set up and use your Onboarder.",
-    "img":"illus-using.svg",
+    "img":"retailer-shop.svg",
     "themes":{
         "first-steps":{
             "title": "First steps: what is the Onboarder?",
-            "img": "illus-using.svg",
+            "img": "what-is-the-onboarder.svg",
             "description": "Let's start with the beginning and learn more about the Retailer Onboarder: we'll go through the definition, how it works and how it's linked to your beloved PIM."
         },
         "supplier-management":{
             "title": "Supplier management",
-            "img": "illus-using.svg",
+            "img": "suppliers-factory.svg",
             "description": "Wondering what is a supplier in the Onboarder and how to create it? Here are the answers."
         },
         "supplier-scope":{
             "title": "Supplier scope",
-            "img": "illus-using.svg",
+            "img": "check-list.svg",
             "description": "You created suppliers, great! Now, you can define what are the product information you expect them to enrich."
         },
         "review-supplier-proposition":{
             "title": "Review supplier proposition",
-            "img": "illus-using.svg",
+            "img": "proposals-review.svg",
             "description": "Good news! Your suppliers enriched product data. It's time for you to review them!"
         }
 
