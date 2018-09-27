@@ -24,9 +24,9 @@ If you prefer using the User Interface, you can follow these steps to create a s
 
 1. Log in your Retailer Onboarder
 1. Click on Suppliers / Users
-1. Click on "Create" button
+1. Click on `Create` button
 1. Fill in the required information (see user definition to learn more about the expected properties)
-1. Save
+1. `Save`
 
 Your suppliers users are created! Keep in mind you can reate up to 3 users per supplier, not more ;).
 
