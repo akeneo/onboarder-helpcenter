@@ -1,6 +1,6 @@
 ---
-id: synchronization-retailer
-themes: first-steps
+id: retailer-synchronization
+themes: retailer-first-steps
 title: Product data synchronization
 popular: false
 ---

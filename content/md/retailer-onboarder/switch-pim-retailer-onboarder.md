@@ -1,6 +1,6 @@
 ---
 id: switch-from-pim-to-retailer-onboarder
-themes: first-steps
+themes: retailer-first-steps
 title: Switch from the PIM to the retailer onboarder
 popular: false
 ---

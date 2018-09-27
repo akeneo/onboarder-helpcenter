@@ -1,7 +1,7 @@
 ---
-id: synchronization
-themes: first-steps
-title: Definition
+id: supplier-synchronization
+themes: supplier-first-steps
+title: Product data synchronization
 popular: false
 ---
 

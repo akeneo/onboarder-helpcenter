@@ -3,7 +3,7 @@
     "description":"Lucky you! one of your retailers sent you an invitation so that you both save time working on product information. Welcome!",
     "img":"suppliers-factory.svg",
         "themes":{
-        "first-steps":{
+        "supplier-first-steps":{
             "title": "First steps: what is the Onboarder?",
             "img": "what-is-the-onboarder.svg",
             "description": "Let's start with the beginning and learn more about the Supplier Onboarder: what is it? Where do the data come from? What information does it handle?"

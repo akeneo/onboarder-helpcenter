@@ -1,6 +1,6 @@
 ---
-id: supplier-definition
-themes: supplier-first-steps
+id: retailer-definition
+themes: retailer-first-steps
 title: Definition
 popular: false
 ---
