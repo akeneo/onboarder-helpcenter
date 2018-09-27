@@ -9,7 +9,7 @@ popular: false
 
 You can easily switch from the PIM to the retailer Onboarder following these steps:
 
-1. login the PIM
+1. log in the PIM
 1. click on the PIM logo
 1. a dropdown is displayed
 1. click on the Onboarder logo
