@@ -18,4 +18,3 @@ You can easily switch from the PIM to the retailer Onboarder following these ste
 :::info
 You can switch from the Onboarder retailer to the PIM using the same steps the other way around.
 :::
-:::info
