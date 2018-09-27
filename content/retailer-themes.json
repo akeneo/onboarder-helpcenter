@@ -13,7 +13,7 @@
             "img": "suppliers-factory.svg",
             "description": "Wondering what is a supplier in the Onboarder and how to create it? Here are the answers."
         },
-        "supplier-scope":{
+        "define-supplier-scope":{
             "title": "Supplier scope",
             "img": "check-list.svg",
             "description": "You created suppliers, great! Now, you can define what are the product information you expect them to enrich."
