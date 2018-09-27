@@ -1,7 +1,7 @@
 ---
-id: create-products
+id: update-products
 themes: manage-products
-title: Create products
+title: Update products
 popular: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: notification
-themes: first-steps
+themes: supplier-first-steps
 title: Notification
 popular: false
 ---

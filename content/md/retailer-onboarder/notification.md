@@ -1,6 +1,6 @@
 ---
 id: notification-retailer
-themes: first-steps
+themes: retailer-first-steps
 title: Notification
 popular: false
 ---
