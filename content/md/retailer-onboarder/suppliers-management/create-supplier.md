@@ -19,7 +19,12 @@ The process tracker page is prompted. You can follow the progress of the import
 When it is finished your suppliers are created and displayed in the suppliers grid.
 
 :::info
-You can use `CSV` or `XLSX` files to import suppliers. The expected header of your supplier import file is the following: code: code of the supplier (required), name: name of the supplier (required, supplier_referent_email: supplier referent email (required), retailer_referent_username: main user name in charge of this supplier (required) and   families.
+You can use `CSV` or `XLSX` files to import suppliers. The expected header of your supplier import file is the following: code:
+* code of the supplier (required)
+* name: name of the supplier (required)
+* supplier_referent_email: supplier referent email (required)
+* retailer_referent_username: main user name in charge of this supplier (required)
+* families.
 :::
 
 # Or User Interface addict?
