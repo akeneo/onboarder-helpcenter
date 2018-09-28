@@ -17,7 +17,7 @@ You will find here all the necessary information related to synchronization:
 During the supplier creation you will be able to link one or n families to a supplier.
 What does it mean and what is the impact?
 
-If you link the supplier "Abibas" to the "Shoes & Accessories" families, it means that he will supply you with the products belonging to these families, so you expect him to fill in product data for these 2 families.
+If you link the supplier "Abibas" to the "Shoes" and "Accessories" families, it means that he will supply you with the products belonging to these families, so you expect him to fill in product data for these 2 families.
 Moreover, this link will avoid displaying attributes the Supplier does not work on in the Supplier Onboarder User Interface.
 
 As a consequence, the family, the attribute groups, attributes and attribute options will be synchronized with the relevant Supplier Onboarder meaning that he will be able to filter on the product grid using these attributes and to create products belonging to this family. In addition to that, in the PIM Product Form, only the suppliers linked to the product family will be displayed in the supplier dropdown.
