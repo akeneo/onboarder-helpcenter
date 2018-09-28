@@ -5,10 +5,8 @@ title: Notification
 popular: false
 ---
 
-# Title 1
+# When are you notified?
 
-Blabla!
+As soon as a product is 100% complete in the Supplier Onboarder, it is automatically sent to your Retailer Onboarder. In the meantime, you will be notified that you have proposals to review via the notification center.
 
-# Title 2
-
-Blabla 2
+Then you can start review them and leverage your product information quality :).

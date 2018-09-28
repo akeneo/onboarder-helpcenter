@@ -27,4 +27,4 @@ Catalog structure updates are also synchronized with the relevant Supplier Onboa
 
 # Product
 
-As soon as you link a product to a supplier the above mentioned attributes will be synchronized with the relevant Supplier Onboarder, as a consequence the product will be displayed in the relevant supplier Onboarder product grid.
+As soon as you link a product to a supplier and you set a supplier reference for a product the above mentioned attributes will be synchronized with the relevant Supplier Onboarder. As a consequence the product will be displayed in the relevant supplier Onboarder product grid.
