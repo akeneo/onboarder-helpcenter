@@ -14,3 +14,7 @@ As soon as a product is complete, it will automatically be sent to the retailer 
 
 You just have to focus on filling out the required information, we take care of the rest!
 :::
+
+:::tips
+The completeness of your product is always displayed on the Product Form header. You can, at any time, easily retrieve the status of your product.
+:::
