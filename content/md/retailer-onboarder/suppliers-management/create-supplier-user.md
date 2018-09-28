@@ -7,6 +7,12 @@ popular: false
 
 # Enjoying flat files?
 
+You can use `CSV` or `XLSX` files to import suppliers users. The expected header of your supplier users import file is the following:
+* email: supplier referent email (required)
+* last_name: supplier user's last name (required)
+* first_name: supplier user's first name (required)
+* phone: user phone number
+
 Here are the steps to create suppliers users via import:
 
 1. Log in your Retailer Onboarder
@@ -32,13 +38,5 @@ If you prefer using the User Interface, you can follow these steps to create a s
 Your suppliers users are created! Keep in mind you can create up to 3 users per supplier, not more ;).
 
 ::: info
-Take care of the email you use for the user; it will be used to send the invitation link to log in the Supplier Onboarder.
-:::
-
-::: info
-you can use `CSV` or `XLSX` files to import suppliers users. The expected header of your supplier users import file is the following:
-* email: supplier referent email (required)
-* last_name: supplier user's last name (required)
-* first_name: supplier user's first name (required)
-* phone: user phone number
+Take care of the email you set for the user; it will be used to send the invitation link to log in the Supplier Onboarder.
 :::
