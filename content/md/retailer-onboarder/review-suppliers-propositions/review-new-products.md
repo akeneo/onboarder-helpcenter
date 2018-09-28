@@ -27,7 +27,7 @@ To have a look at the prereferenced product details you can click on it. It will
 
 If you want to accept a prereferenced product, simply
 1. Click on the `Accept` button
-1. A popin is prompted to fill in the product identifier and its category
+1. A pop-in is prompted to fill in the product identifier and its category
 1. Click on `Save`
 
 You're done with the first part: you accepted the prereferenced product. You can now review its attributes values in Product data / Onboarder proposals.
