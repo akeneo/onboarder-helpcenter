@@ -5,10 +5,10 @@ title: Display supplier list
 popular: false
 ---
 
-# Title 1
+# Where can I find my suppliers in the User Interface?
 
-Blabla!
+At any time, you can easily display the supplier list in the Retailer Onboarder. To do so, you can:
+1. Log in the Retailer Onboarder.
+1. Click on `Suppliers` then `Suppliers`
 
-# Title 2
-
-Blabla 2
+The Supplier list will be prompted.
