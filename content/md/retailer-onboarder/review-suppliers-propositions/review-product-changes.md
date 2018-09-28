@@ -17,6 +17,7 @@ To display these changes you can:
 1. Log in your Retailer Onboarder
 1. Click on `Product data`
 1. Then on `Onboarder proposals`
+
 The proposals provided by your suppliers will be displayed.
 
 If you are not yet familiar with the proposals review, you can learn in [this article](https://help.akeneo.com/articles/review-products-proposals.html#review-actions-on-proposals) how to work with them.
