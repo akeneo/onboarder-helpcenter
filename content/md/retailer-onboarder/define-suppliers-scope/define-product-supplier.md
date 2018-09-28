@@ -29,5 +29,5 @@ It's really easy to assign a supplier to a product:
 1. Select a product in the Product grid
 1. Look for the `Supplier` attributes
 1. Click on the dropdown
-1. Select the supplier name you want to
+1. Select the supplier name you want to add
 1. Click on `Save`
