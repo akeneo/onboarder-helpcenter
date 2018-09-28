@@ -14,6 +14,7 @@ Here are the steps to create suppliers via import:
 1. Click on `Upload a file`
 1. Drag your file in the drop area or browse disk
 1. Click on `Upload and import now`
+
 The process tracker page is prompted. You can follow the progress of the import.
 
 When it is finished your suppliers are created and displayed in the suppliers grid.
