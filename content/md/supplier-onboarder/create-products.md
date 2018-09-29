@@ -22,5 +22,5 @@ Contrary to the PIM, a product cannot be created without a family. As you don't 
 :::
 
 :::info
-Product creation works the same way as in the PIM. You can look at [this article](https://help.akeneo.com/articles/create-a-product.html#create-a-product) to know more about it.
+Product creation works the same way as in the PIM, learn more about it by reading our [Create a product](https://help.akeneo.com/articles/create-a-product.html#create-a-product) article.
 :::
