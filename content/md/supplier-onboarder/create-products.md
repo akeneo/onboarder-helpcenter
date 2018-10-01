@@ -18,7 +18,8 @@ In order to create a new product on the Onboarder, you just have to:
 Your product is now created and its form is displayed. You can start filling its attributes.
 
 :::info
-Contrary to the PIM, a product cannot be created without a family. As you don't have access to the attributes' selection, the choice of the family allows you to automatically gain access to all the required attributes of your product.
+A new product cannot be created without a family. The family depicts all the attributes your product needs to be send to your retailer.
+The list will give you access to all the families of products you can create in your Onboarder. This list is maintained by your retailer.
 :::
 
 :::info
