@@ -5,10 +5,10 @@ title: Update products
 popular: true
 ---
 
-# Title 1
+# Via the User Interface
 
-Blabla!
+You can easily enrich products via the [product form](https://help.akeneo.com/articles/work-on-a-product.html#mainContent).
 
-# Title 2
-
-Blabla 2
+:::tips
+As soon as a product is complete, it is automatically sent to the Retailer Onboarder to be reviewed.
+:::
