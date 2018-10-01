@@ -25,7 +25,7 @@ To have a look at the prereferenced product details you can click on it. It will
 
 # Wanna approve a prereferenced product?
 
-If you want to accept a prereferenced product, simply
+If you want to accept a prereferenced product, simply:
 1. Click on the `Accept` button
 1. A pop-in is prompted to fill in the product identifier and its category
 1. Click on `Save`
@@ -37,6 +37,6 @@ As long as you don't validate the proposals for an accepted prereferenced produc
 :::
 
 
-# Or you prefer to reject it?
+# Or do you prefer to reject it?
 
 If this prereferenced product has little interest for the moment, you can refuse it by clicking on the `Reject` button in the top right corner of the prereferenced product form. The Supplier will be notified of your review and the mention `Rejected` will be displayed in the Product form header in his User Interface.
