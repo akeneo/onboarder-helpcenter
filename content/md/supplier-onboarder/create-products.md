@@ -18,7 +18,7 @@ In order to create a new product on the Onboarder, you just have to:
 Your product is now created and its form is displayed. You can start filling its attributes.
 
 :::info
-A new product cannot be created without a family. The family depicts all the product attributes that need to be send to your retailer.
+A new product cannot be created without a family. The family depicts all the product attributes that need to be sent to your retailer.
 The family list will give you access to all the product families you can create in your Onboarder. This list is maintained by your retailer.
 :::
 
