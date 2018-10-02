@@ -39,4 +39,4 @@ As long as you don't validate the proposals for an accepted prereferenced produc
 
 # Or do you prefer to reject it?
 
-If this prereferenced product has little interest for the moment, you can refuse it by clicking on the `Reject` button in the top right corner of the prereferenced product form. The Supplier will be notified of your review and the mention `Rejected` will be displayed in the Product form header in his User Interface.
+If this prereferenced product has little interest for the moment, you can refuse it by clicking on the `Reject` button on the top right corner of the prereferenced product form. The Supplier will be notified of your review and the mention `Rejected` will be displayed in the Product form header in his User Interface.
