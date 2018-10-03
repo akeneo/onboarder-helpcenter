@@ -9,7 +9,7 @@ popular: true
 
 In order to create a new product on the Onboarder, you just have to:
 1. Click on the `Products` menu
-1. Click on the `Create` button in the top right corner of the product grid. A creation wizard appears.
+1. Click on the `Create` button on the top right corner of the product grid. A creation wizard appears.
 1. Specify the unique product identifier (SKU)
 1. Fill out the name of the product (optional)
 1. Select a family for the new product
