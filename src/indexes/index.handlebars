@@ -3,7 +3,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="/onboarder">
                 <img height="20" src="/onboarder/img/onboarder.svg"></img>
             </a>
         </div>
@@ -17,7 +17,7 @@
                 <div class="form-group" style="margin: 10px 0;">
                     <input id="docSearch-input" type="text" placeholder="Type your search right here..." class="form-control input-lg">
                 </div>
-                <small>For instance, try <strong><a href="articles/create-supplier.html">"Create a supplier"</a></strong>, <strong><a href="articles/review-new-products.html">"Review new products"</a></strong> or <strong><a href="articles/supplier-firststeps-definition.html">"What is the Supplier Onboarder?"</a></strong></small>
+                <small>For instance, try <strong><a href="/onboarder/articles/create-supplier.html">"Create a supplier"</a></strong>, <strong><a href="/onboarder/articles/review-new-products.html">"Review new products"</a></strong> or <strong><a href="/onboarder/articles/supplier-firststeps-definition.html">"What is the Supplier Onboarder?"</a></strong></small>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="persona">
-                <a href="/retailer-themes.html">
+                <a href="/onboarder/retailer-themes.html">
                     <img class="img-responsive center-block" src="/onboarder/img/retailer-shop-corrected.svg"/>
                     <h2 class="text-center">Retailer</h2>
                     <div class="row">
@@ -40,7 +40,7 @@
         </div>
         <div class="col-sm-6">
             <div class="persona">
-                <a href="/supplier-themes.html">
+                <a href="/onboarder/supplier-themes.html">
                     <img class="img-responsive center-block" src="/onboarder/img/suppliers-factory.svg"/>
                     <h2 class="text-center">Supplier</h2>
                     <div class="row">
@@ -61,7 +61,7 @@
             <div class="row">
                 {{#each popularArticles}}
                 <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <a href="articles/{{articlePath}}"> <p>{{{articleName}}} ></p></a></div>
+                    <a href="/onboarder/articles/{{articlePath}}"> <p>{{{articleName}}} ></p></a></div>
                     {{/each}}
                 </div>
             </div>
