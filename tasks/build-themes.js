@@ -55,7 +55,7 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
             // Once the stream is finished, we know for one given persona, all the information about the articles
             // that are in its themes. So we can inject this content into the handlebars template of the Themes page
             // to create the final Theme page in HTML
-            // Finally, the resulting HTML page is saved into "dist" 
+            // Finally, the resulting HTML page is saved into "dist"
             return stream.on('end', function () {
                 return gulp.src('src/themes.handlebars')
                     .pipe(gulpHandlebars({
@@ -68,7 +68,7 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                     }))
                     .pipe(rename(path.basename(file.path).replace(/\.json$/, '.html')))
                     .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                    .pipe(gulp.dest('./dist'));
+                    .pipe(gulp.dest('./dist/onboarder'));
             });
         }));
 });
