@@ -33,7 +33,7 @@ gulp.task('grab-related-articles', function(){
 gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function() {
     // When all information about the popular articles are gathered,
     // we inject this data into the Handlebars template of the homepage.
-    // Finally, the resulting HTML is saved into "dist".       
+    // Finally, the resulting HTML is saved into "dist".
     return gulp.src('src/indexes/*.handlebars')
             .pipe(flatmap(function(stream, file){
                 return gulp.src(file.path)
@@ -42,6 +42,6 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
                         }))
                         .pipe(rename(path.basename(file.path).replace(/\.handlebars$/, '.html')))
                         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                        .pipe(gulp.dest('dist'));
+                        .pipe(gulp.dest('dist/onboarder'));
                 }));
 });

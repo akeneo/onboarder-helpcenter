@@ -236,7 +236,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                     }))
                     .pipe(rename(id + '.html'))
                     .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                    .pipe(gulp.dest('./dist/articles'));
+                    .pipe(gulp.dest('./dist/onboarder/articles'));
                 });
             });
         }));

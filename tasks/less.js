@@ -12,7 +12,7 @@ gulp.task('less', ['clean-dist'], function () {
             paths: [ path.join(__dirname, 'less', 'includes') ]
         }))
         .pipe(rev())
-        .pipe(gulp.dest('./dist/css'))
+        .pipe(gulp.dest('./dist/onboarder/css'))
         .pipe(rev.manifest())
         .pipe( gulp.dest('./tmp/rev'));
 });

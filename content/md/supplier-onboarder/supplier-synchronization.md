@@ -7,6 +7,9 @@ popular: false
 
 # Automatic sync
 
+![synchronization](onboarder-helpcenter/content/img/synchronization.svg)
+
+
 Your Supplier Onboarder allows you to enrich product information. Your retailer gave you access to the products on which he needs information.
 
 :::info
