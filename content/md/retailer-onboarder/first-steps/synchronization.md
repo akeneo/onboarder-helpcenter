@@ -7,6 +7,8 @@ popular: false
 
 # Introduction
 
+![synchronization](../img/synchronization.svg)
+
 You will find here all the necessary information related to synchronization:
 - what are the synchronized information?
 - when are those information synchronized?
