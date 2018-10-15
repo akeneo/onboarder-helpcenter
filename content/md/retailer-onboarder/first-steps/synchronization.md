@@ -7,7 +7,7 @@ popular: false
 
 # Introduction
 
-![synchronization](onboarder-helpcenter/content/img/synchronization.svg)
+![synchronization](../img/synchronization.svg)
 
 You will find here all the necessary information related to synchronization:
 - what are the synchronized information?
