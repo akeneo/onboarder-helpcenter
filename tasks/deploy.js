@@ -25,7 +25,11 @@ function isFileSync(aPath) {
 
 gulp.task('deploy', ['create-dist'], function() {
     // Dirs and Files to sync
-    rsyncPaths = ['./dist/*' ];
+    // Points directly to the onboarder folder to prevent deloyment
+    // in the web server root directory.
+    // config.json must point to the onboarder helpcenter folder
+    // (/home/akeneo/onboarder)
+    rsyncPaths = ['./dist/onboarder/*' ];
 
     // Default options for rsync
     rsyncConf = {
