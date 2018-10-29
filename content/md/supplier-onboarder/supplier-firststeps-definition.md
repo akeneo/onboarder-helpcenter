@@ -17,3 +17,5 @@ The Supplier Onboarder is a part of a complete solution, composed of 3 modules:
 ![Onboarder Scheme](../img/onboarder-scheme.svg)
 
 Your retailer will give you access to your own Onboarder. As soon as your account is activated, you will receive an email with all the information you need to access your Onboarder.
+
+![Onboarder - Welcome email](../img/onboarder-scheme.svg)

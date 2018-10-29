@@ -7,6 +7,8 @@ popular: false
 
 # Did you say "Supplier"?
 
+![What is a supplier ?](../img/suppliers-factory.svg)
+
 A supplier is one of your business partner. You buy him products to expand your product range. In the Onboarder it is an entity with the following properties:
 
 | Property | Definition | Comment |

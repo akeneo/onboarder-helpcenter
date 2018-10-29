@@ -7,6 +7,8 @@ popular: false
 
 # A seamless way to switch from the PIM to your Onboarder
 
+![Switch To Onboarder](../img/PIM_General_SwitchToOnboarder.png)
+
 You can easily switch from the PIM to the retailer Onboarder following these steps:
 
 1. Log in the PIM

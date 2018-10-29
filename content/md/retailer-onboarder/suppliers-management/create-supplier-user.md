@@ -27,6 +27,8 @@ When it is finished your suppliers are created and displayed in the users grid
 
 # Or User Interface addict?
 
+![Create supplier user with the User Interface](../img/RETAILER_Suppliers_SupplierUsers_CreateSupplierUser.png)
+
 If you prefer using the User Interface, you can follow these steps to create a supplier:
 
 1. Log in your Retailer Onboarder

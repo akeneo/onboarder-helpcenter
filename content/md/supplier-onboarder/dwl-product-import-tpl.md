@@ -7,6 +7,8 @@ popular: false
 
 # My kingdom for a template
 
+![Import button](../img/SUPPLIER_Products_ProductGrid_focus.png)
+
 In order to have an easy way to import your products in your Onboarder, you can download a template matching your families. Those templates provide all the attributes in a format that your Onboarder will accept.
 
 Here is how to get them:
