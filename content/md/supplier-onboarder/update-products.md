@@ -7,6 +7,8 @@ popular: true
 
 # Via the User Interface
 
+![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER_PEF.png)
+
 Products can be easily updated by clicking on a product on the product grid. Thus, the product form is displayed.
 It is composed of 4 distinct parts:
 * The header panel

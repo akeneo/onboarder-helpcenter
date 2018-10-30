@@ -7,6 +7,8 @@ popular: true
 
 # A few things to know before starting
 
+![Supplier reference in families](../img/PIM_Settings_Families_SupplierAndSupplierReference_Focus.jpg)
+
 When the Onboarder bundle is installed on the PIM, 2 new attributes are automatically added on all your products: `Supplier` and `Supplier reference` . By assigning a supplier to a product and defining the product supplier reference, this product will automatically be sent to the relevant Onboarder Supplier.
 
 :::info
@@ -23,6 +25,8 @@ Both supplier and supplier reference are mandatory for a product to be sent to t
 Do not hesitate to have a look at [this article](https://help.akeneo.com/articles/product-export-builder.html#mainContent) to export products.
 
 # Via the User Interface
+
+![Link a product and a supplier with the PEF](../img/PIM_PEF_ModifySupplierAndSupplierReference.gif)
 
 It's really easy to assign a supplier to a product:
 1. Log in your PIM

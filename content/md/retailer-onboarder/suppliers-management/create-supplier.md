@@ -30,6 +30,8 @@ You can use `CSV` or `XLSX` files to import suppliers. The expected header of yo
 
 # Or User Interface addict?
 
+![Create a supplier with the User Interface](../img/RETAILER_Suppliers_Suppliers_CreateASupplier.png)
+
 1. Log in your Retailer Onboarder
 1. Click on Suppliers / Suppliers
 1. Click on `Create` button
