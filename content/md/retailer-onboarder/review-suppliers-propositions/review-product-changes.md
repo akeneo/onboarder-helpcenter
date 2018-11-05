@@ -20,6 +20,8 @@ To display these changes you can:
 
 The proposals provided by your suppliers will be displayed.
 
+![Proposals list](../img/RETAILER_Proposals.png)
+
 If you are not yet familiar with the proposals review, you can learn in [this article](https://help.akeneo.com/articles/review-products-proposals.html#review-actions-on-proposals) how to work with them.
 
 :::info
