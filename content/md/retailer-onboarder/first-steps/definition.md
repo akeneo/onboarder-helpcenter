@@ -3,6 +3,7 @@ id: retailer-definition
 themes: retailer-first-steps
 title: Definition
 popular: false
+related: create-supplier-user, retailer-synchronization
 ---
 
 # Onboarder? What's that?
