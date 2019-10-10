@@ -3,6 +3,7 @@ id: review-new-products
 themes: review-supplier-proposition
 title: Review new products
 popular: false
+related: switch-from-pim-to-retailer-onboarder, review-product-changes
 ---
 
 # Display prereferenced product list
