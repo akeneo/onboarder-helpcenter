@@ -29,3 +29,7 @@ The family list will give you access to all the product families you can create 
 :::info
 Product creation works the same way as in the PIM, learn more about it by reading our [Create a product](https://help.akeneo.com/articles/create-a-product.html#create-a-product) article.
 :::
+
+:::tips
+Lorem SUPPLIER_Products_CreateNewProductFamilyDropdown
+:::
