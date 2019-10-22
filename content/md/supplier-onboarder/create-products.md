@@ -6,7 +6,7 @@ popular: true
 ---
 
 # Product creation? Piece of cake!
-## Step by step clicks
+## Manual creation
 ![Create New Products](../img/SUPPLIER_Products_CreateNewProduct.png)
 
 In order to create a new product on the Onboarder, you just have to:
@@ -37,14 +37,9 @@ The answer is yes!
 
 You can run an import and it's very easy.
 On your grid:
-1. Download the import (see [Download a product import template](dwl-product-import-tpl.html)),
+1. Download the import template (see [Download a product import template](dwl-product-import-tpl.html)),
 1. Complete the spreadsheet,
 1. On the product grid, click on the `Import` button,
 1. Drag and drop your file,
 1. Run the import and
 1. Wait for the notification
-
-
-::: warning
-Remember to specify a SKU for all your products to identify them.
-:::
