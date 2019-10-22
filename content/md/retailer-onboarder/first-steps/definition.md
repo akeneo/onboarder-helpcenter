@@ -1,8 +1,9 @@
 ---
 id: retailer-definition
 themes: retailer-first-steps
-title: Definition
+title: Definition of the Retailer Onboarder
 popular: false
+related: create-supplier-user, retailer-synchronization
 ---
 
 # Onboarder? What's that?
