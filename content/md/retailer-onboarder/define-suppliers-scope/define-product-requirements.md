@@ -11,15 +11,20 @@ popular: true
 
 The goal of the Onboarder is to save time during product collection from the suppliers. The idea is not for you to manipulate product data but to receive structured data. To do so, you will be able to define the attributes you expect your suppliers to fill in for each family. The requirements for your suppliers will be defined like any other PIM channel.
 
-As soon as an Onboarder is installed alongside an Akeneo PIM, a new channel  called `Onboarder` is automatically added to your PIM. Thanks to this channel, you will be able to define the attributes you want your suppliers to complete. Each attribute defined as required in family for the `Onboarder` channel will be sent to the relevant Supplier Onboarder. For each family, the attributes sent to the Supplier Onboarder are the following:
+As soon as an Onboarder is installed alongside an Akeneo PIM, a new channel  called `Onboarder` is automatically added to your PIM. Thanks to this channel, you will be able to define the attributes you want your suppliers to complete. All attributes defined as required or nice to have in a family for the `Onboarder` channel will be sent to the relevant Supplier Onboarder. For each family, the attributes sent to the Supplier Onboarder are the following:
 
 * attribute used as label
 * attribute used as the main picture
 * attribute used as identifier
 * required attributes
+* nice to have attributes
 
 :::info
 The attribute used as identifier will be displayed in read-only in the Supplier Onboarder.
+:::
+
+::: success
+Only the attributes marked as 'required' are taken into account for the completeness of products. The nice to have attributes are not mandatory to synchronize the product. 
 :::
 
 # Via flat files import

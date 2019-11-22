@@ -40,8 +40,12 @@ The meta data panel displays information regarding your product such as:
 The attribute panel displays all the attributes of your product.
 
 :::info
-All the attributes that are displayed on the product form have been defined by the retailer. They have to be filled in so that they can be reviewed.
+All the attributes that are displayed on the product form have been defined by the retailer.
 :::
+
+All the attributes marked with the yellow bullet point are required for the retailer.
+
+If the attribute doesn't have the bullet point, it means that the retailer make it available for the supplier to complete but it is more a nice to have to help the retailer. 
 
 :::tips
 As soon as a product is complete, it is automatically sent to the Retailer Onboarder to be reviewed.
