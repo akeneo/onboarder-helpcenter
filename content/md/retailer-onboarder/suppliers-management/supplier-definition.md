@@ -18,6 +18,6 @@ A supplier is one of your business partner. You buy him products to expand your 
 | UI locale | The language of the Supplier Onboarder interface | Among the PIM locales |
 | Catalog locale | The locale used in the supplier Onboarder for product data | Among the activated PIM locales |
 | Families | The families the supplier can work with |
-| Allow product creation | Enable suppliers to create or not new products | |
+| Allow product creation | Allow the supplier to create new products or not| By default suppliers can create new products |
 | Supplier referent | The supplier user who will receive the invitation email to log in the Onboarder |
 | Retailer referent | The PIM user who will be notified when a product is created in the Supplier Onboarder |
