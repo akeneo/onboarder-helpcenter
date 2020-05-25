@@ -27,3 +27,7 @@ If you are not yet familiar with the proposals review, you can learn in [this ar
 :::info
 Only the proposals made by your suppliers in their Onboarder will be displayed in this screen. The proposals provided in the PIM are still displayed in the PIM in `Activity`/ `Proposals`.
 :::
+
+:::info
+New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the proposal is accepted. You can then set a label to the asset or change other attribute of the asset like described into [this article](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html).
+:::

@@ -43,6 +43,10 @@ You're done with the first part: you accepted the prereferenced product. You can
 As long as you don't validate the proposals for an accepted prereferenced product, it won't appear in your Akeneo PIM.
 :::
 
+:::info
+New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the proposal is accepted. You can then set a label to the asset or change other attribute of the asset like described into [this article](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html).
+:::
+
 
 # Or do you prefer to reject it?
 
