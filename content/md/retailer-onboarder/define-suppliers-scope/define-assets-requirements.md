@@ -18,7 +18,7 @@ Only the asset collections marked as 'required' are taken into account for the c
 
 # Limitations
 ## Media file as main media
-Suppliers can only share assets belonging to an asset family whose the main media is a media file attribute, and not a media link one. So, only asset collections containing media files attributes can be selected for the Onboarder channel.
+Suppliers can only share assets belonging to an asset family whose the main media is a media file attribute, and not a media link one. So, only asset collections linked to asset family whose main media is a media file attribute can be selected for the Onboarder channel.
 
 ::: warning
 If the attribute used as the main media of the asset family linked to this asset collection is a media link attribute, the collection won't be synchronized to the suppliers and they won't be able to send the assets.
