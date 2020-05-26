@@ -29,5 +29,5 @@ Only the proposals made by your suppliers in their Onboarder will be displayed i
 :::
 
 :::info
-New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the proposal is accepted. You can then set a label to the asset or change other attribute of the asset like described into [this article](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html).
+New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the new product is accepted. You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html)(label, other attributes).
 :::
