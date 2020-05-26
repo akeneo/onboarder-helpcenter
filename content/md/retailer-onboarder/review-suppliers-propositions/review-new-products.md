@@ -44,7 +44,7 @@ As long as you don't validate the proposals for an accepted prereferenced produc
 :::
 
 :::info
-New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the new product is accepted. You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html)(label, other attributes).
+New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the new product is accepted. You can [edit the asset attributes](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html) afterward.
 :::
 
 
