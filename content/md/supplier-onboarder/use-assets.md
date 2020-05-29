@@ -15,7 +15,7 @@ For products assigned to suppliers, some assets could already exist in the PIM. 
 If you want to change the asset selected for one product, you just have to:
 1. Click on `Add asset`,
 1. Select assets that already exist,
-1. Click 'Confirm'.
+1. Click on 'Confirm'.
 
 ![Select asset](../img/select-assets.png)
 
