@@ -6,7 +6,7 @@ popular: false
 ---
 
 # Manage assets
-Assets are now visible in a new `Assets` tab of the product edition page. On this tab you are able to visualize and edit all your asset collection attributes.
+Assets are now visible in the new `Assets` tab of the product edition page. On this tab you are can visualize and edit your asset collection attributes.
 
 ![Upload asset](../img/asset-upload-tab-highlight.png)
 
