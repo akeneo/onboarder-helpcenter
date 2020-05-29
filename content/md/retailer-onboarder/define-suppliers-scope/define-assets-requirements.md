@@ -13,7 +13,7 @@ As defined in [define product requirements](./define-product-requirements.html),
 
 
 ::: success
-Only the asset collections marked as 'required' are taken into account for the completeness of products. The nice-to-have assets are not mandatory to synchronize the product.
+Asset collections identified as 'required' are the only ones taken into account for the completeness of products. The nice-to-have assets are not mandatory to synchronize the product.
 :::
 
 # Limitations
