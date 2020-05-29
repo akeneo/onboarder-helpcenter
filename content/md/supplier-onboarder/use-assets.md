@@ -20,7 +20,7 @@ If you want to change the asset selected for one product, you just have to:
 ![Select asset](../img/select-assets.png)
 
 ## Upload new assets
-For one product, you can upload you own assets and suggest them to your retailer, to do so:
+For one product, you can upload your own assets and suggest them to your retailer. To do so:
 1. Click `Upload Asset`,
 1. Drop your files,
 1. Click `Add to product`.
