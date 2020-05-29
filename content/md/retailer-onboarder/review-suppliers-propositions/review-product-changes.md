@@ -25,7 +25,7 @@ The proposals provided by your suppliers will be displayed.
 If you are not yet familiar with the proposals review, you can learn in [this article](https://help.akeneo.com/articles/review-products-proposals.html#review-actions-on-proposals) how to work with them.
 
 :::info
-Only the proposals made by your suppliers in their Onboarder will be displayed in this screen. The proposals provided in the PIM are still displayed in the PIM in `Activity`/ `Proposals`.
+This screen will only display the proposals from your suppliers in their Onboarder. The proposals provided in the PIM are still displayed in `Activity`/ `Proposals`.
 :::
 
 :::info
