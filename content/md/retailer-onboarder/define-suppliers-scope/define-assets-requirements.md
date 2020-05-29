@@ -9,7 +9,7 @@ popular: false
 
 ![Define product requirements](../img/PIM_Settings_Families_SupplierAndSupplierReference.png)
 
-As defined in the [define product requirements](./define-product-requirements.html), you can define the assets requirements for your suppliers like any other PIM channel. You'll be able to add asset collections to be enriched by suppliers like other attributes.
+As defined in [define product requirements](./define-product-requirements.html), you can define the assets requirements for your suppliers like for any other PIM channel. You'll be able to add asset collections that will be enriched by suppliers like any other attributes.
 
 
 ::: success
