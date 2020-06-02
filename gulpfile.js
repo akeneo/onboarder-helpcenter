@@ -28,7 +28,8 @@ gulp.task('launch-webserver', ['create-dist'], function() {
     .pipe(webserver({
       livereload: true,
       directoryListing: false,
-      open: '/onboarder/'
+      open: '/onboarder/',
+      host: '0.0.0.0',
     }));
 });
 
