@@ -25,7 +25,7 @@ If the attribute used as the main media of the asset family linked to this asset
 :::
 
 ## Asset code uniqueness
-As many suppliers could enrich the same asset collection and they can set the same asset code, the Onboarder sets constraints to suppliers to guarantee the uniqueness of asset codes among all your suppliers.
+As many suppliers can be working on the same asset collection at the same time, they could set the same asset code twice. The Onboarder puts a constraint on suppliers to guarantee the uniqueness of asset codes among all suppliers.
 * A supplier can't create an asset code
 * The asset code is automatically generated using a UUID
 
