@@ -29,5 +29,5 @@ This screen will only display the proposals from your suppliers in their Onboard
 :::
 
 :::info
-New assets suggested by suppliers are sent in proposals and they are automatically added to the right asset collection when the new product is accepted. You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html)(label, other attributes).
+New assets suggested by suppliers are included in the proposals and they are automatically added to the right asset collection when the new product is accepted. You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html)(label, other attributes).
 :::
