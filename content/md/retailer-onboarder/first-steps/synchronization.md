@@ -31,3 +31,10 @@ Catalog structure updates are also synchronized with the relevant Supplier Onboa
 # Product
 
 As soon as you link a product to a supplier and you set a supplier reference for a product, the attributes mentioned above will be synchronized with the relevant Supplier Onboarder. Therefore, the product will be displayed in the relevant supplier Onboarder product grid.
+
+# Assets
+When you assign a product to a supplier, all the assets linked to this product will be sent. The supplier has 2 choices: he can either choose assets among the asset family linked to the asset collection, thanks to the asset picker, or upload new media files directly in the product asset collection attribute.
+
+:::warning
+All the asset attributes are not synchronized with the suppliers. The Onboarder *only*  synchronizes the media files and the asset code of the assets in the asset collection.
+:::
