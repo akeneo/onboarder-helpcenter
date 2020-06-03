@@ -3,24 +3,47 @@ This repository holds the sources for the Onboarder help center, made by hand wi
 
 ## Install/preview the help center
 
-First, you will need [Node](https://nodejs.org/en/) as well as [Gulp-cli](https://github.com/gulpjs/gulp-cli).
+Install [Docker Engine](https://docs.docker.com/engine/installation/)
 
-Then you can run the following commands in your terminal where these sources are:
+### Build with docker
+
+**/!\ Mac OS specific /!\\** Docker bind-mounts files and folder using the user and group IDs of your container, not
+those of you host like on Linux. To have a working environment, export the following environment variable
 ```bash
-sudo npm install --global n
-sudo n 7.2.0
-npm install
-sudo npm install --global gulp-cli
+$ export ONBOARDER_ON_MACOS=1
 ```
 
-### Run locally
-Once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
-
 ```bash
-npm install
-
-gulp serve
+$ make build
 ```
 
-The help center website is then available on `localhost:8000`.
+This is only building the documentation. The documentation is not available with this command, as it does not launch the HTTP server.
+
+### Build and launch HTTP server with docker
+
+```bash
+$ make watch
+```
+
+The help center website is then available on `http://localhost:8000/onboarder/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
+
+### Automatic
+
+Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. You have nothing to do.
+
+You can check that your changes has been correctly applied, then if everything went as expected you approve and deploy on production server. 
+
+### Manual
+
+In case you want to re deploy the Onboarder documentation, [look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/onboarder-helpcenter?branch=master) and click on _Deployment_.
+
+![List of merged PR in master](.circleci/list_workflows.jpg)
+
+Then click on _Rerun_.
+
+![Re run a deployment](.circleci/re_run.jpg)
+
+## Documentation contribution
+
+It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).
