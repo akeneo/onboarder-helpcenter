@@ -32,7 +32,7 @@ Files located in the content and src directories are watched for changes, so whe
 
 Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. You have nothing to do.
 
-You can check that your changes has been correctly applied, then if everything went as expected you can 
+You can check that your changes has been correctly applied, then if everything went as expected you approve and deploy on production server. 
 
 ### Manual
 
