@@ -7,8 +7,14 @@ Install [Docker Engine](https://docs.docker.com/engine/installation/)
 
 ### Build with docker
 
+**/!\ Mac OS specific /!\\** Docker bind-mounts files and folder using the user and group IDs of your container, not
+those of you host like on Linux. To have a working environment, export the following environment variable
 ```bash
-make build
+$ export ONBOARDER_ON_MACOS=1
+```
+
+```bash
+$ make build
 ```
 
 This is only building the documentation. The documentation is not available with this command, as it does not launch the HTTP server.
@@ -16,7 +22,7 @@ This is only building the documentation. The documentation is not available with
 ### Build and launch HTTP server with docker
 
 ```bash
-make watch
+$ make watch
 ```
 
 The help center website is then available on `http://localhost:8000/onboarder/`.

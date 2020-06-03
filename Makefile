@@ -1,5 +1,17 @@
+SHELL=bash
+
+ONBOARDER_ON_MACOS ?= 0
+
+ifeq ($(ONBOARDER_ON_MACOS), 0)
+	HOST_USER_ID = `id -u`
+	HOST_GROUP_ID = `id -g`
+else
+	HOST_USER_ID = 1000
+	HOST_GROUP_ID = 1000
+endif
+
 DOCKER_IMAGE_TAG = onboarder-helpcenter:master
-DOCKER_RUN = docker run -it --rm -u "$${UID}":"$${GID}" -v "$${PWD}":/opt/workdir -w /opt/workdir
+DOCKER_RUN = docker run -it --rm -u "$$(HOST_USER_ID)":"$$(HOST_USER_ID)" -v "$${PWD}":/opt/workdir -w /opt/workdir
 
 .PHONY: docker-build yarn-install serve deploy-staging
 .DEFAULT_GOAL := build
