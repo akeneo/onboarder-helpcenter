@@ -9,7 +9,7 @@ popular: true
 
 ![Supplier reference in families](../img/PIM_Settings_Families_SupplierAndSupplierReference_Focus.jpg)
 
-When the Onboarder bundle is installed on the PIM, 2 new attributes are automatically added on all your products: `Supplier` and `Supplier reference` . By assigning a supplier to a product and defining the product supplier reference, this product will automatically be sent to the relevant Onboarder Supplier.
+When the Onboarder bundle is installed on the PIM, 2 new attributes are automatically added on the Onboarder channel to all your families: `Supplier` and `Supplier reference` . By assigning a supplier to a product and defining the product supplier reference, this product will automatically be sent to the relevant Onboarder Supplier.
 
 :::info
 You can link a product to a single supplier.
