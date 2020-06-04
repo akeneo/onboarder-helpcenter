@@ -32,17 +32,33 @@ Files located in the content and src directories are watched for changes, so whe
 
 Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. You have nothing to do.
 
-You can check that your changes has been correctly applied, then if everything went as expected you approve and deploy on production server. 
+Then, you can check that your changes have been correctly applied. 
+
+If everything went as expected, you can deploy on the production server by following the next steps:
+
+[look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/onboarder-helpcenter?branch=master) and click on _deployment_.
+
+![List of merged PR in master](.circleci/pipelines.png)
+
+Then click on _wait_for_user_approval_.
+ 
+![_wait_for_user_approval_](.circleci/wait_for_user_approval.png)
+
+Last, click on _Approve_.
+
+![_Approve the job_](.circleci/approve.png)
 
 ### Manual
 
-In case you want to re deploy the Onboarder documentation, [look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/onboarder-helpcenter?branch=master) and click on _Deployment_.
+In case you want to redeploy the Onboarder documentation, [look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/onboarder-helpcenter?branch=master) and click on _deployment_.
 
-![List of merged PR in master](.circleci/list_workflows.jpg)
+![List of merged PR in master](.circleci/pipelines.png)
+
+/!\ You have to Approve or Cancel the `wait_for_approval` step before running the job again /!\ 
 
 Then click on _Rerun_.
 
-![Re run a deployment](.circleci/re_run.jpg)
+![Re run a deployment](.circleci/re_run.png)
 
 ## Documentation contribution
 
