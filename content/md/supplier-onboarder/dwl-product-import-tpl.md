@@ -32,3 +32,5 @@ Only line bellow the third line will be read at the import. If you change the fi
 :::info
 The excel file (XLSX) contains drop-downs for single select attributes. Each selection option is displayed with the option label and the option code between brackets. As for the attribute code line, the option code is necessary to read the file during import.  
 :::
+
+![Option list](../img/template-option-list.png)
