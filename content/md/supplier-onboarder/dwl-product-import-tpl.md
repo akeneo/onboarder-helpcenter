@@ -21,16 +21,16 @@ This template file can easily be imported in your Onboarder to add many products
 
 ## File format
 The template contains 3 lines in the header:
-1. attribute code, it allows the Onboarder to read the file when importing it
-1. attribute labels, it is the name of the attribute given by the retailer
-1. requirement, it shows you what attributes are required for [product completion](update-products.html#the-attribute-panel)
+1. attribute code: Unique attribute identifier. Allows the Onboarder to know to which attribute the data refers to when importing.
+1. attribute labels: Human-readable designation of the attribute code above given by your retailer.
+1. requirement status of the attribute: Shows you the status of the attribute (required, optional) for the [product completion](update-products.html#the-attribute-panel)
 
 :::warning
-Only line bellow the third line will be read at the import. If you change the file and add products before this line, they won't be imported.
+Only line bellow the third line will be read at import. If you change the file and add products before this line, they won't be imported.
 :::
 
 :::info
-The excel file (XLSX) contains drop-downs for single select attributes. Each selection option is displayed with the option label and the option code between brackets. As for the attribute code line, the option code is necessary to read the file during import.  
+The excel file (XLSX) contains drop-down for single select attributes. Each selection option is displayed with the option label and the option code between brackets. As for the attribute code line, the option code is necessary to read the file during import.  
 :::
 
 ![Option list](../img/template-option-list.png)
