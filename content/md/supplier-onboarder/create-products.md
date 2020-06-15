@@ -5,8 +5,7 @@ title: Create products
 popular: true
 ---
 
-# Product creation? Piece of cake!
-## Manual creation
+# Manual creation
 ![Create New Products](../img/SUPPLIER_Products_CreateNewProduct.png)
 
 In order to create a new product on the Onboarder, you just have to:
@@ -30,14 +29,14 @@ The family list will give you access to all the product families you can create 
 Product creation works the same way as in the PIM, learn more about it by reading our [Create a product](https://help.akeneo.com/articles/create-a-product.html#create-a-product) article.
 :::
 
-## Speed up with import
+# Speed up with import
 Now, you know how to create a new product manually, you may think there should be a faster way to do it.
 
 The answer is yes!
 
 You can run an import and it's very easy.
 On your grid:
-1. Download the import template (see [Download a product import template](dwl-product-import-tpl.html)),
+1. [Download a product import template](dwl-product-import-tpl.html),
 1. Complete the spreadsheet,
 1. On the product grid, click on the `Import` button,
 1. Drag and drop your file,
