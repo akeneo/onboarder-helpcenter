@@ -34,7 +34,7 @@ The locale selected in the dropdown menu is your working locale. When you move f
 
 ::: info
   1. The locales displayed are those required by the retailer for product enrichment.
-  2. The working locale selected on the product grid's page is also applied when you edit or view a product form
+  2. The working locale selected on the product grid page stays the same when you open or edit a product form.
   3. The working locale is different from the user interface locale of the user
 :::
 -->
