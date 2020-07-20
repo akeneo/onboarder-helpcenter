@@ -7,7 +7,7 @@ popular: false
 
 # Where is the product grid?
 
-To access your products: click on the `Products` menu. You will land on the product grid.
+To access your products: click on `Products`. You will land on the product grid.
 
 This page contains all information you need to start working on your catalog: your products, your categories, some filters, and locales.
 
