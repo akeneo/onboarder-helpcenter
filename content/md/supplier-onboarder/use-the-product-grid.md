@@ -41,7 +41,7 @@ The locale selected in the dropdown menu is your working locale. When you move f
 
 # Product grid display
 
-To highlight the products' images, a `Gallery` display of the product grid is available. This display can be used to quickly find products by their images and update them.
+A `Gallery` view of the product grid is available. This display can be used to quickly identify and update products thanks to their image.
 
 With the `Gallery` display, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
 - Supplier  reference
