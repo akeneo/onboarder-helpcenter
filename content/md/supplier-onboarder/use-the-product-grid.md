@@ -35,7 +35,7 @@ The locale selected in the dropdown menu is your working locale. When you move f
 ::: info
   1. The locales displayed are those required by the retailer for product enrichment.
   2. The working locale selected on the product grid page stays the same when you open or edit a product form.
-  3. The working locale is different from the user interface locale of the user
+  3. There are two types of locale, the working locale for your products and the user interface locale, which is the language you chose to work on your onboarder. 
 :::
 -->
 
