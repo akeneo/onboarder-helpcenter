@@ -35,15 +35,15 @@ The locale selected in the dropdown menu is your working locale. When you move f
 ::: info
   1. The locales displayed are those required by the retailer for product enrichment.
   2. The working locale selected on the product grid page stays the same when you open or edit a product form.
-  3. There are two types of locale, the working locale for your products and the user interface locale, which is the language you chose to work on your onboarder. 
+  3. There are two types of locale, the working locale for your products and the user interface locale, which is the language you chose to work on your Onboarder.
 :::
 -->
 
-# Product grid display
+# Product grid view
 
-A `Gallery` view of the product grid is available. This display can be used to quickly identify and update products thanks to their image.
+A `Gallery` view of the product grid is available. This view can be used to quickly identify and update products thanks to their image.
 
-With the `Gallery` display, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
+With the `Gallery` view, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
 - Supplier  reference
 - Label: attribute used as "label" in the family
 - Image: attribute used as "main picture" in the family
@@ -53,17 +53,17 @@ With the `Gallery` display, the following properties are displayed in the grid (
 -->
 
 :::info
-Other grid features also apply to this display (channel, locale and categories selection, filters, pagination, product selection, etc.).
+Other grid features also apply to this view (channel, locale and categories selection, filters, pagination, product selection, etc.).
 :::
 
-To use the `Gallery` display:
-1.  Click on `List` to change the display  
-  ![Select the product grid display](../img/Products_display.png)
-1.  Select the display `Gallery`
-  ![Gallery display of the product grid](../img/Products_gallery_display.png)
+To use the `Gallery` view:
+1.  Click on `List`
+  ![Select the product grid view](../img/Products_display.png)
+1.  Select the view `Gallery`
+  ![Gallery view of the product grid](../img/Products_gallery_display.png)
 
 :::info
-The context of the chosen display for the product grid is kept.
+The context of the chosen view for the product grid is kept.
 :::
 
 # Product grid pagination
@@ -160,7 +160,7 @@ Now you're set up with your filters; you can select which columns you would like
 
 By default, the grid displays the following columns:
 - ID (our product identifier)
-- Label (the product's display name in Akeneo)
+- Label (the product's displayed name in Akeneo)
 - Family
 - Complete
 - Created at (the creation date of the product)
