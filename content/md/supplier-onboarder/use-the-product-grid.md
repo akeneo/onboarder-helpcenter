@@ -9,7 +9,7 @@ popular: false
 
 To access your products: click on `Products`. You will land on the product grid.
 
-This page contains all information you need to start working on your catalog: your products, your categories, some filters, and locales.
+This page contains all the information you need to start working on your catalog: your products, your categories, some filters, and locales.
 
 ![The products grid with all the information you need](../img/Products_views.png)
 
