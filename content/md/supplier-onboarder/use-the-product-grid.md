@@ -28,7 +28,7 @@ By default, you will find all your products on the product grid page. You can ch
 - The completeness displayed
 - The product or attribute values in the product grid
 
-The locale selected in the dropdown menu is your working locale. Every time it will be changed, the product information will be updated in the product grid.
+The locale selected in the dropdown menu is your working locale. When you move from one locale to another, the product information is updated in the product grid.
 
 ![Select a locale context](../img/Products_locales.png)
 
