@@ -13,7 +13,7 @@ This page contains all the information you need to start working on your catalog
 
 ![The product grid with all the information you need](../img/Products_views.png)
 
-In the following sections, we will see how to set up your work environment.
+In the following sections, you will find out how to set up your work environment.
 
 <!--
 # Locale context
