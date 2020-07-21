@@ -25,7 +25,7 @@ By default, you will find all your products on the product grid page. You can ch
 - The attribute labels that can be used as filters (in the filter section on the left panel)
 - The labels of attribute groups
 - The attribute option labels used as values (in the product grid)
-- The completeness displayed
+- The completeness
 - The product or attribute values in the product grid
 
 The locale selected in the dropdown menu is your working locale. When you move from one locale to another, the product information is updated in the product grid.
