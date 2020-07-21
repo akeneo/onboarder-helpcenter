@@ -22,7 +22,7 @@ In the following sections, you will find out how to set up your work environment
 
 By default, you will find all your products on the product grid page. You can choose your working locale if several locales are required. The locale selection will impact the following information on the page:
 - The category labels (on the left panel)
-- The attribute labels that can be used as filters (on the filters section in the left panel)
+- The attribute labels that can be used as filters (in the filter section on the left panel)
 - The labels of attribute groups
 - The attribute option labels used as values (on the product grid)
 - The completeness displayed
