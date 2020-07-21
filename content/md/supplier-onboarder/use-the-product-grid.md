@@ -24,7 +24,7 @@ By default, you will find all your products on the product grid page. You can ch
 - The category labels (on the left panel)
 - The attribute labels that can be used as filters (in the filter section on the left panel)
 - The labels of attribute groups
-- The attribute option labels used as values (on the product grid)
+- The attribute option labels used as values (in the product grid)
 - The completeness displayed
 - The product or attribute values in the product grid
 
