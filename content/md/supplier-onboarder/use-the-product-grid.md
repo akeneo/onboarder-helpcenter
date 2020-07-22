@@ -42,22 +42,22 @@ The locale selected in the dropdown menu is your working locale. When you move f
 A `Gallery` view of the product grid is available. This view can be used to quickly identify and update products thanks to their image.
 
 With the `Gallery` view, you can see the following properties in the grid:
-- Supplier  reference
+- Supplier reference
 - Label: attribute used as "label" in the family
 - Image: attribute used as "main picture" in the family
 - Completeness
 <!--
-- Number of complete variant products out of the number of variant products for a product model (ex: "2/3" means that 2 variants out of 3 for the product model are complete)
+- Number of complete variant products over the total number of variant products for a given product model (ex: "2/3" means that 2 variants out of 3 are complete, for the given product model)
 -->
 
 :::info
-Other grid features also apply to this view but are not displayed (channel, locale and categories selection, filters, pagination, product selection, etc.)
+Other grid features also apply to this view but are not displayed (channel, locale and category selection, filters, pagination, product selection, etc.)
 :::
 
 To use the `Gallery` view:
 1.  Click on `List`
   ![Select the product grid view](../img/Products_display.png)
-1.  Select the view `Gallery`
+1.  Select the `Gallery` view
   ![Gallery view of the product grid](../img/Products_gallery_display.png)
 
 :::info
@@ -66,7 +66,7 @@ When you change your working locale, you keep all your selected filters active.
 
 # Product grid pagination
 
-The product grid displays 25 products per page. To browse the product's pages, click on the number of the page you want to reach.
+The product grid displays 25 products per page. To browse the product pages, click on the number of the page you want to reach.
 
 :::info
 The grid can display up to 400 pages (10000 products). However, you can use the filters in the grid to optimize the results displayed.
@@ -76,7 +76,7 @@ The grid can display up to 400 pages (10000 products). However, you can use the 
 
 # Category panel
 
-## Browse products' categories
+## Browse product categories
 
 On the left side of the page, you will see the category panel. Thanks to this panel, you can easily navigate between category trees or between categories.
 
@@ -93,7 +93,7 @@ Below the category tree, you will see an additional category: `Unclassified prod
 
 ## View all products
 
-Click on `All products` to see all products (categorized and uncategorized) of the selected category tree.
+Click on `All products` to see all the products (categorized and uncategorized) of the selected category tree.
 
 ![View all products](../img/Products_Category4.png)
 
@@ -116,7 +116,7 @@ To display the product grid widely, you can hide the category panel. To do so, c
 
 The category panel will be reduced automatically to the left side.
 
-To expand the panel, click again on the arrow.
+To expand the panel, click back on the arrow.
 
 ![How to expand the category panel](../img/Expand_category_panel.png)
 
@@ -130,25 +130,25 @@ The product grid includes filter management.
 
 You can use the filters displayed or add new filters: click on the `+` icon and select the new attributes you want to use as filters.
 
-If an attribute or an attribute option is not translated in the active locale, its code will be displayed into brackets like [name].
+If an attribute or an attribute option is not translated in the active locale, its code will be displayed into brackets. It will look like this: [name].
 
 The filters can be applied to the following product information:
-- Product information managed by the Onboarder: Family, Groups, Status, Complete, Creation date, Updated date, Product identifier, Permissions
+- Product information managed by the Onboarder: Family, Groups, Status, Completeness, Creation date, Updated date, Product identifier, Permissions
 - Product information managed via the attributes
 
 
 ## Search by label and identifier
 
 To quickly find products, a search bar is available in the product grid.
-The search is only on the identifier (product identifier or product model code) and the label.
+You can only search on the identifier (product identifier or product model code) and the label.
 
 ![Search bar](../img/Products_search.png)
 
-The behavior of the search is a "contains" filter. For example, if you type in "can", it will display all the products or product models with an identifier/code or a label which contains "can".  
+The search is based on a "contains" filter. For example, if you type in "can", it will display all the products or product models with an identifier/code or a label which contains "can".  
 
 
 :::tips
-You don't need to press enter to search, just enter a few characters, and results will show.
+You don't need to press enter to search, just enter a few characters, and results will appear.
 :::
 
 
