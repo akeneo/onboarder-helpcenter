@@ -11,7 +11,7 @@ As a supplier you have 2 ways to enrich products for your retailer in the Onboar
 
 
 # Via the User Interface
-Once you open the Onboarder, the first screen you can see is the [product grid](https://help.akeneo.com/MISSING LINK), then you can open products you need to enrich.
+Once you open the Onboarder, the first screen you can see is the [product grid](/onboarder/articles/products-grid-supplier.html), then you can open products you need to enrich.
 
 ![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER_PEF.png)
 
