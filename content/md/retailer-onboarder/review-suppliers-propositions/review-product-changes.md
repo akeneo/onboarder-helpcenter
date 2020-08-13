@@ -7,27 +7,26 @@ popular: false
 
 # How to manage suppliers proposals?
 
-As soon as a product will be completed on the Supplier Onboarder (aka all the attributes you defined as required for the channel Onboarder are filled in by the supplier) it will be sent to your Retailer Onboarder so that you can review it.
+When product is completed on the Supplier Onboarder (ie [all attributes defined as required for the channel Onboarder](/onboarder/articles/define-product-requirements.html) are filled in by the supplier), it is sent as a proposal to your PIMso that you can review it.
 
 :::info
 A product updated by one of your supplier will never impact directly your PIM. A review step is mandatory so that you can evaluate the proposition.
 :::
 
-To display these changes you can:
-1. Log in your Retailer Onboarder
-1. Click on `Product data`
-1. Then on `Onboarder proposals`
+You can review the suggestions made by suppliers in the [PIM proposals](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html).
 
-The proposals provided by your suppliers will be displayed.
+## Product models
+[Product models with variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html) are specific type of products you can receive proposals for.
+You can receive proposals in two different cases :
+1. for the product model values
+1. for the product variant values
 
-![Proposals list](../img/RETAILER_Proposals.png)
+For the product model values, you receive a proposal:
+* the first time the supplier completes a product variant with its parents product models,
+* and then each time a product model is updated.
 
-If you are not yet familiar with the proposals review, you can learn in [this article](https://help.akeneo.com/articles/review-products-proposals.html#review-actions-on-proposals) how to work with them.
+For the product variant values, you receive a proposal each time a supplier complete or update a product variant.
 
-:::info
-This screen will only display the proposals from your suppliers in their Onboarder. The proposals provided in the PIM are still displayed in `Activity`/ `Proposals`.
-:::
-
-:::info
-New assets suggested by suppliers are included in the proposals and they are automatically added to the right asset collection when the new product is accepted. You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html)(label, other attributes).
-:::
+## Assets
+New assets suggested by suppliers are included in the proposals and they are automatically added to the right asset collection when the new product is accepted.
+You can [change the asset](https://help.akeneo.com/pim/serenity/articles/manage-asset-families.html) (label, other attributes).
