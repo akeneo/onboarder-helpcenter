@@ -24,7 +24,11 @@ The attribute used as identifier will be displayed in read-only in the Supplier 
 :::
 
 ::: success
-Only the attributes marked as 'required' are taken into account for the completeness of products. The nice to have attributes are not mandatory to synchronize the product. 
+Only the attributes marked as 'required' are taken into account for the completeness of products. The nice to have attributes are not mandatory to synchronize the product.
+:::
+
+::: warning
+Custom attributes are not supported by the Onboarder. Adding them in the families linked with your supplier could cause issues. 
 :::
 
 # Via flat files import
