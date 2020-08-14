@@ -28,7 +28,7 @@ Only the attributes marked as 'required' are taken into account for the complete
 :::
 
 ::: warning
-Custom attributes are not supported by the Onboarder. Adding them in the families linked with your supplier could cause issues. 
+Custom attributes are not supported by the Onboarder. Adding them in the families linked with your supplier could cause issues in the synchronization of the product data. 
 :::
 
 # Via flat files import
