@@ -154,18 +154,18 @@ You don't need to press enter to search, just enter a few characters, and result
 
 ## Configure grid columns
 
-Now you're set up with your filters; you can select which columns you would like to see in the grid. By default, Akeneo displays the System attributes as columns.
+Now you're set up with your filters; you can select which columns you would like to see in the grid.
 
-By default, the grid displays the following columns:
+By default, it displays the following columns:
 - ID (our product identifier)
-- Label (the product's displayed name in Akeneo)
+- Label 
 - Family
 - Complete
-- Created at (the creation date of the product)
-- Updated at (the product last updated date)
+- Created on (the creation date of the product)
+- Updated on (the latest update for this product)
 
 ### Configure the columns
-Click `Columns` on the right side of the grid to display the column selection window:
+Click on `Columns` on the right side of the grid to display the column selection window:
 
 ![Configure the columns](../img/Products_Columns.png)
 
@@ -173,9 +173,9 @@ On the left side of the window, you will see your attribute groups.
 
 ![Attributes groups are on the left columns](../img/Products_ColumnsPopUp.png)
 
-Nearby each group, you will see the number of attributes belonging to this group that can be used as columns in the grid. Click on a group to display its attributes in the middle column.
+For each group, you will see the number of attributes. You will be able to use these attributes as columns in the grid. Click on a group to display its attributes in the middle block. Drag and drop the ones you need. From the right block, you can delete the attributes you don't want to display in your product grid, and you can reorganize them. 
 
-If you want to display all attributes, click on «All groups». On the right side, you will see your current grid's columns.
+If you want to display all attributes, click on «All groups». On the right side, you will see your current grid columns.
 
 
 ### Add attributes as columns
@@ -186,7 +186,7 @@ Select an attribute group on the left side or select `All groups`. Drag your att
 
 Click `Clear` top of the screen to remove all current grid's attributes, or use the "trash" icon to remove a specific attribute from the grid. You need to have at least one attribute as a column.
 
-Click `Apply` to save your changes. Your customized grid will be displayed.
+Click on `Apply` to save your changes. Your customized grid will be displayed.
 
 ## Sort values within the grid
 
@@ -195,16 +195,16 @@ You can also sort on some columns headers; for instance, you can sort products o
 You can not sort values on price, media, asset, metric, multi-select attributes, and on Label and Groups system attributes.
 
 ::: tips
-To check if you can sort on a column, simply hover your mouse over the column's header.
+To check if you can sort on a column, simply hover your mouse over the column header.
 :::
 
 # Action shortcuts on single products
 
-There is a set of actions available for each product. They are available on the right side of the product grid when you hover mouse over the product's line:
+There is a set of actions available for each product. They are available on the right side of the product grid when you hover your mouse over the product line:
 
 ![Hover on the products grid](../img/Products_GridHover.png)
 
 You will then be able to:
-- edit the product information by clicking the small pencil icon,
+- edit the product information by clicking on the small pencil icon,
 - edit its categories by clicking on the small folder icon,
 - delete it with the trash bin icon (if not yet synchronized with the PIM).
