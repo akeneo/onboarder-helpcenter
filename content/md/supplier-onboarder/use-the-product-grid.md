@@ -158,7 +158,7 @@ Now you're set up with your filters; you can select which columns you would like
 
 By default, it displays the following columns:
 - ID (our product identifier)
-- Label 
+- Label
 - Family
 - Complete
 - Created on (the creation date of the product)
@@ -173,29 +173,18 @@ On the left side of the window, you will see your attribute groups.
 
 ![Attributes groups are on the left columns](../img/Products_ColumnsPopUp.png)
 
-For each group, you will see the number of attributes. You will be able to use these attributes as columns in the grid. Click on a group to display its attributes in the middle block. Drag and drop the ones you need. From the right block, you can delete the attributes you don't want to display in your product grid, and you can reorganize them. 
+For each group, you will see the number of attributes. You will be able to use these attributes as columns in the grid. Click on a group to display its attributes in the middle block. Drag and drop the ones you need. From the right block, you can delete the attributes you don't want to display in your product grid, and you can reorganize them.
 
 If you want to display all attributes, click on «All groups». On the right side, you will see your current grid columns.
-
-
-### Add attributes as columns
-
-Select an attribute group on the left side or select `All groups`. Drag your attribute in the mid-column and drop it in the right column. Use the search tool to look for a specific attribute. Move your attribute up and down to reorder them.
-
-### Remove attributes as columns
-
-Click `Clear` top of the screen to remove all current grid's attributes, or use the "trash" icon to remove a specific attribute from the grid. You need to have at least one attribute as a column.
 
 Click on `Apply` to save your changes. Your customized grid will be displayed.
 
 ## Sort values within the grid
 
-You can also sort on some columns headers; for instance, you can sort products on SKU, family, status, complete, created, and updated at and on some other attributes (text, text area, number, simple select attributes).
+When you hover your mouse over the column header, you can see arrows on the attributes you can use to sort the grid. To do so, click on the column header.
 
-You can not sort values on price, media, asset, metric, multi-select attributes, and on Label and Groups system attributes.
-
-::: tips
-To check if you can sort on a column, simply hover your mouse over the column header.
+::: warning
+Some attribute types could not be used to sort columns.
 :::
 
 # Action shortcuts on single products
