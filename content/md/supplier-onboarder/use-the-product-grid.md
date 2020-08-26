@@ -184,7 +184,7 @@ Click on `Apply` to save your changes. Your customized grid will be displayed.
 When you hover your mouse over the column header, you can see arrows on the attributes you can use to sort the grid. To do so, click on the column header.
 
 ::: warning
-Some attribute types could not be used to sort columns.
+Some attribute types cannot be used to sort columns.
 :::
 
 # Action shortcuts on single products
