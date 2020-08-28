@@ -5,15 +5,10 @@ title: Update products
 popular: true
 ---
 
-As a supplier you have 2 ways to enrich products for your retailer in the Onboarder :
-* with the interface
-* with a flat file
-
-
 # Via the User Interface
 Once you open the Onboarder, the first screen you can see is the [product grid](/onboarder/articles/products-grid-supplier.html), then you can open products you need to enrich.
 
-![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER_PEF.png)
+![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER-pef.png)
 
 The product form contains 4 parts:
 * The header panel
@@ -22,6 +17,8 @@ The product form contains 4 parts:
 * The attribute panel
 
 ## The header panel
+
+![Header panel highlight](../img/SUPPLIER-pef-header.png)
 
 The header panel shows the following product information:
 * The product name
@@ -37,12 +34,16 @@ The breadcrumb is displayed only when you are on a product model page, it allows
 
 ## The product navigation panel
 
+![Navigation panel highlight](../img/SUPPLIER-pef-navigation.png)
+
 The product navigation panel allows you to switch between different sections of your product:
 * [Attributes](/onboarder/articles/update-products.html#the-attribute-panel): Displays the list of attributes of a product. This section is used to enrich your product. This is the most used view.
 * Assets: Allows you to upload media files when required. This section only shows if you can add assets to the product.
 * Categories: Allows you to categorize your product.
-
+  
 ## The meta data panel
+
+![Meta data panel highlight](../img/SUPPLIER-pef-metadata.png)
 
 The meta data panel displays information regarding your product such as:
 * The family of your product
@@ -50,6 +51,8 @@ The meta data panel displays information regarding your product such as:
 * The last update timestamp
 
 ## The attribute panel
+
+![Attributes panel highlight](../img/SUPPLIER-pef-attributes.png)
 
 The attribute panel displays all the attributes you can enrich in the Onboarder. This list is defined by the retailer.
 
