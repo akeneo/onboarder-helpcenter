@@ -29,6 +29,10 @@ You can use `CSV` or `XLSX` files to import suppliers. The expected header of yo
 * allow_product_creation: boolean 0 = No and 1 = Yes (optional)
 :::
 
+::: warning
+The suppliers cannot create product models and variants. You'll need to [link them with each product variant](/onboarder/articles/define-product-supplier.html). 
+:::
+
 # Or User Interface addict?
 
 ![Create a supplier with the User Interface](../img/RETAILER_Suppliers_Suppliers_CreateASupplier.png)

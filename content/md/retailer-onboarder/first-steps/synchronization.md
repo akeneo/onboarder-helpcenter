@@ -28,9 +28,16 @@ As a consequence, the family, the attribute groups, attributes and attribute opt
 Catalog structure updates are also synchronized with the relevant Supplier Onboarder. For example, if you add a new required attribute for a family for the Onboarder channel, it will be automatically synchronized on the relevant Supplier Onboarder.
 :::
 
-# Product
-
+# Products synchronization
+## Products
 As soon as you link a product to a supplier and you set a supplier reference for a product, the attributes mentioned above will be synchronized with the relevant Supplier Onboarder. Therefore, the product will be displayed in the relevant supplier Onboarder product grid.
+
+## Product Models and variants
+To link a product variant to a supplier, you need complete the supplier reference and the supplier attribute as explained for products. The parent product model is send alongside with the product variant. You need to repeat the operation for each product variant of a product model to link variants to one or several suppliers.
+
+::: warning
+When you link 2 variants of the same product model to 2 different suppliers, both of them are able to enrich the product model and send you proposals.
+:::
 
 # Assets
 When you assign a product to a supplier, all the assets linked to this product will be sent. The supplier has 2 choices: he can either choose assets among the asset family linked to the asset collection, thanks to the asset picker, or upload new media files directly in the product asset collection attribute.

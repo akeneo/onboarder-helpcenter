@@ -6,8 +6,8 @@ popular: false
 ---
 
 # How to manage suppliers proposals?
-
-When product is completed on the Supplier Onboarder (ie [all attributes defined as required for the channel Onboarder](/onboarder/articles/define-product-requirements.html) are filled in by the supplier), it is sent as a proposal to your PIMso that you can review it.
+## Products
+When product is completed on the Supplier Onboarder (ie [all attributes defined as required for the channel Onboarder](/onboarder/articles/define-product-requirements.html) are filled in by the supplier), it is sent as a proposal to your PIM.
 
 :::info
 A product updated by one of your supplier will never impact directly your PIM. A review step is mandatory so that you can evaluate the proposition.
@@ -15,7 +15,7 @@ A product updated by one of your supplier will never impact directly your PIM. A
 
 You can review the suggestions made by suppliers in the [PIM proposals](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html).
 
-## Product models
+## Product model with variants
 [Product models with variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html) are specific type of products you can receive proposals for.
 You can receive proposals in two different cases :
 1. for the product model values
