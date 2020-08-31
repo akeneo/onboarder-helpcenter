@@ -15,7 +15,7 @@ A product updated by one of your supplier will never impact directly your PIM. A
 
 You can review the suggestions made by suppliers in the [PIM proposals](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html).
 
-## Product model with variants
+## Product models with variants
 [Product models with variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html) are specific type of products you can receive proposals for.
 You can receive proposals in two different cases :
 1. for the product model values

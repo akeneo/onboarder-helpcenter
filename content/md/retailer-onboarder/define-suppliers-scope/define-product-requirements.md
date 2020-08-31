@@ -25,18 +25,15 @@ The attribute used as identifier will be displayed in read-only in the Supplier 
 
 ::: success
 Only the attributes marked as 'required' are taken into account for the completeness of products. The nice to have attributes are not mandatory to synchronize the product.
-<<<<<<< HEAD
 :::
 
 ::: warning
-Custom attributes are not supported by the Onboarder and suppliers are not able to enrich data of custom attributes. 
-=======
->>>>>>> changes on retailer pages for product models
+Custom attributes are not supported by the Onboarder and suppliers are not able to enrich data of custom attributes.
 :::
 
 ::: warning
 When you [create a supplier](/onboarder/articles/create-supplier.html), you can chose to allow the product creation.
-In order to avoid conflict of data, the Onboarder blocks the **creation** of product models and variants by suppliers but you can still [assign them variants](/onboarder/articles/define-product-supplier.html). 
+In order to avoid conflict of data, the Onboarder blocks the **creation** of product models and variants by suppliers but you can still [assign them variants](/onboarder/articles/define-product-supplier.html).
 :::
 
 ## Via flat files import

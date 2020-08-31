@@ -10,6 +10,10 @@ related: switch-from-pim-to-retailer-onboarder, review-product-changes
 
 The supplier has the ability to create prereferenced products, nice, but what is it? A prereferenced product is a product created in the Supplier Onboarder by one of your supplier. These new products can be interesting for you to enlarge your product range or to launch a new collection.
 
+:::info
+Suppliers **cannot** create product models and variants.
+:::
+
 You can easily display them by following these steps:
 1. Log in your Retailer Onboarder
 1. Click on Product data / New products

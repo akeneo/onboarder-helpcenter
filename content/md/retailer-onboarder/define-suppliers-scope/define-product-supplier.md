@@ -37,5 +37,5 @@ It's really easy to assign a supplier to a product:
 1. Click on `Save`
 
 :::warning
-When you assign a product variant to a supplier, the supplier will also be able to enrich the product model associated and you will [receive proposals](onboarder/articles/review-product-changes.html) when product variants are completed.
+When you link a product variant to a supplier, the supplier can also enrich the product model associated.Then, you will [receive proposals](onboarder/articles/review-product-changes.html) when product variants are completed.
 :::
