@@ -36,7 +36,7 @@ As soon as you link a product to a supplier and you set a supplier reference for
 To link a product variant to a supplier, you need to complete the supplier reference and the supplier attribute as explained for products. The parent product model is sent alongside with the product variant. You need to repeat the operation for each product variant of a product model to link variants to one or several suppliers.
 
 ::: warning
-When you link 2 variants of the same product model to 2 different suppliers, both suppliers can enrich the product model and they can send you proposals.
+When you link 2 different variants of the same product model to 2 different suppliers, both suppliers can enrich the product model and they can send you proposals.
 :::
 
 # Assets

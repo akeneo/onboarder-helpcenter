@@ -29,7 +29,7 @@ The header panel shows the following product information:
 * Filters to access directly to attribute groups or missing attributes
 
 :::info
-The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the levels of the product model.
+The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the different levels of the product model.
 :::
 
 ## The product navigation panel
@@ -38,7 +38,7 @@ The breadcrumb is displayed only when you are on a product model page, it allows
 
 The product navigation panel allows you to switch between different sections of your product:
 * [Attributes](/onboarder/articles/update-products.html#the-attribute-panel): Displays the list of attributes of a product. This section is used to enrich your product. This is the most used view.
-* Assets: Allows you to upload media files when required. This section only shows if you can add assets to the product.
+* Assets: Allows you to upload media files when required. This section is only displayed if assets are required to complete the product.
 * Categories: Allows you to categorize your product.
   
 ## The meta data panel
@@ -59,7 +59,7 @@ The attribute panel displays all the attributes you can enrich in the Onboarder.
 ### Completeness
 All the attributes marked with the yellow bullet point are required for the retailer.
 
-The attributes without the bullet point are optional and are not taken in account for the completeness calculation. When you complete these attributes, you help the retailer to get better product values.
+The attributes without the bullet point are optional and are not taken into account for the completeness calculation. When you complete these attributes, you help the retailer to get better product values.
 
 :::warning
 As soon as a product is complete, it is [automatically sent](/onboarder/articles/supplier-synchronization.html) to the Retailer Onboarder to be reviewed.

@@ -28,11 +28,11 @@ Only the attributes marked as 'required' are taken into account for the complete
 :::
 
 ::: warning
-Custom attributes are not supported by the Onboarder and suppliers are not able to enrich data of custom attributes.
+Custom attributes are not supported by the Onboarder and suppliers are not able to enrich custom attributes data.
 :::
 
 ::: warning
-When you [create a supplier](/onboarder/articles/create-supplier.html), you can chose to allow the product creation.
+When you [create a supplier](/onboarder/articles/create-supplier.html), you can choose to allow them to create products.
 In order to avoid conflict of data, the Onboarder blocks the **creation** of product models and variants by suppliers but you can still [assign them variants](/onboarder/articles/define-product-supplier.html).
 :::
 
