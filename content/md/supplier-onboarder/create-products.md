@@ -29,6 +29,10 @@ The family list will give you access to all the product families you can create 
 Product creation works the same way as in the PIM, learn more about it by reading our [Create a product](https://help.akeneo.com/articles/create-a-product.html#create-a-product) article.
 :::
 
+::: warning
+As a supplier you cannot create [product models and variants](/pim/serenity/articles/what-about-products-variants.html). Please contact your retailer to enrich product models and variants. 
+:::
+
 # Speed up with import
 Now, you know how to create a new product manually, you may think there should be a faster way to do it.
 

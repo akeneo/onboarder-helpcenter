@@ -6,11 +6,11 @@ popular: true
 ---
 
 # Via the User Interface
+Once you open the Onboarder, the first screen you can see is the [product grid](/onboarder/articles/products-grid-supplier.html), then you can open products you need to enrich.
 
-![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER_PEF.png)
+![Enrich via the User Interface - Onboarder List of products](../img/SUPPLIER-pef.png)
 
-Products can be easily updated by clicking on a product on the product grid. Thus, the product form is displayed.
-It is composed of 4 distinct parts:
+The product form contains 4 parts:
 * The header panel
 * The product navigation panel
 * The meta data panel
@@ -18,17 +18,32 @@ It is composed of 4 distinct parts:
 
 ## The header panel
 
+![Header panel highlight](../img/SUPPLIER-pef-header.png)
+
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
+* Completeness
+* Breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
+* Number of missing attributes
+* Filters to access directly to attribute groups or missing attributes
+
+:::info
+The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the different levels of the product model.
+:::
 
 ## The product navigation panel
 
-The product navigation panel allows you to switch between different sections of your product:
-* Attributes: Displays the list of attributes of a product. This section is used to enrich your product. This is the most used view.
-* Categories: Allows you to categorize your product.
+![Navigation panel highlight](../img/SUPPLIER-pef-navigation.png)
 
+The product navigation panel allows you to switch between different sections of your product:
+* [Attributes](/onboarder/articles/update-products.html#the-attribute-panel): Displays the list of attributes of a product. This section is used to enrich your product. This is the most used view.
+* Assets: Allows you to upload media files when required. This section is only displayed if assets are required to complete the product.
+* Categories: Allows you to categorize your product.
+  
 ## The meta data panel
+
+![Meta data panel highlight](../img/SUPPLIER-pef-metadata.png)
 
 The meta data panel displays information regarding your product such as:
 * The family of your product
@@ -37,18 +52,22 @@ The meta data panel displays information regarding your product such as:
 
 ## The attribute panel
 
-The attribute panel displays all the attributes of your product.
+![Attributes panel highlight](../img/SUPPLIER-pef-attributes.png)
 
-:::info
-All the attributes that are displayed on the product form have been defined by the retailer.
-:::
+The attribute panel displays all the attributes you can enrich in the Onboarder. This list is defined by the retailer.
 
+### Completeness
 All the attributes marked with the yellow bullet point are required for the retailer.
 
-If the attribute doesn't have the bullet point, it means that the retailer make it available for the supplier to complete but it is more a nice to have to help the retailer. 
+The attributes without the bullet point are optional and are not taken into account for the completeness calculation. When you complete these attributes, you help the retailer to get better product values.
 
-:::tips
-As soon as a product is complete, it is automatically sent to the Retailer Onboarder to be reviewed.
+:::warning
+As soon as a product is complete, it is [automatically sent](/onboarder/articles/supplier-synchronization.html) to the Retailer Onboarder to be reviewed.
 :::
 
-You can access this link, if you want to know more about product enrichment via the [product form](https://help.akeneo.com/articles/work-on-a-product.html#mainContent).
+:::info
+The completeness for product models is calculated by product variant. The breadcrumb shows the number of complete product variants. You can see more details by clicking on the breadcrumb.
+:::
+
+# Via flat file upload
+By using the Onboarder, you also have the possibility to [download a template](/onboarder/articles/dwl-product-import-tpl.html) in csv or xlsx format and upload it once you have completed it.

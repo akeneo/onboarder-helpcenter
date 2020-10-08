@@ -35,3 +35,7 @@ It's really easy to assign a supplier to a product:
 1. Click on the dropdown
 1. Select the supplier name you want to add
 1. Click on `Save`
+
+:::warning
+When you link a product variant to a supplier, the supplier can also enrich the product model associated. Then, you will [receive proposals](onboarder/articles/review-product-changes.html) when product variants are completed.
+:::
