@@ -1,6 +1,6 @@
 ---
 id: products-grid-supplier
-themes: manage-products
+themes: supplier-first-steps
 title: Get familiar with the **product grid**
 popular: false
 ---
@@ -15,7 +15,7 @@ This page contains all the information you need to start working on your catalog
 
 In the following sections, you will find out how to set up your work environment.
 
-<!--
+
 # Locale context
 
 ## Select a locale context
@@ -35,7 +35,7 @@ The locale selected in the dropdown menu is your working locale. When you move f
   2. The working locale selected on the product grid page stays the same when you open or edit a product form.
   3. There are two types of locale, the working locale for your products and the user interface locale, which is the language you chose to work on your Onboarder.
 :::
--->
+
 
 # Product grid view
 
@@ -46,9 +46,8 @@ With the `Gallery` view, you can see the following properties in the grid:
 - Label: attribute used as "label" in the family
 - Image: attribute used as "main picture" in the family
 - Completeness
-<!--
 - Number of complete variant products over the total number of variant products for a given product model (ex: "2/3" means that 2 variants out of 3 are complete, for the given product model)
--->
+
 
 :::info
 Other grid features also apply to this view but are not displayed (channel, locale and category selection, filters, pagination, product selection, etc.)
