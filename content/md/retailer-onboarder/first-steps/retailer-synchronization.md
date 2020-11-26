@@ -19,7 +19,7 @@ You will find here all the necessary information related to synchronization:
 When you create a new supplier, you need to link families and catalog locales to a supplier.
 What does it mean and what is the impact?
 
-If you link the supplier "Abibas" to the "Shoes" and "Accessories" families, it means that he will supply you with the products belonging to these families in all locales you selected, so you expect the supplier to fill in product data for these 2 families.
+If you link the supplier "Abibas" to the "Shoes" and "Accessories" families, it means that they will supply you with the products belonging to these families in all the locales you selected, so you expect the supplier to fill in product data for these 2 families.
 Moreover, this link will avoid displaying attributes the Supplier does not work on in the Supplier Onboarder User Interface.
 
 Consequently, the following information will be synchronized with the relevant Supplier Onboarder for all selected locales:
