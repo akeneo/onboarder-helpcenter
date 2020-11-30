@@ -32,7 +32,7 @@ Consequently, the following information will be synchronized with the relevant S
 As a consequence, the family, the attribute groups, attributes and attribute options will be synchronized with the relevant Supplier Onboarder in all the selected locales if attributes are localizable.
 -->
 
-It means that suppliers are able to filter on the product grid using these attributes and to create products belonging to this family. In addition to that, in the PIM Product Form, only the suppliers linked to the product family will be displayed in the supplier dropdown.
+It means that suppliers are able to filter on the product grid using these attributes and to create products belonging to this family. In addition to that, in the PIM Product Edit Form, only the suppliers linked to the product family will be displayed in the supplier dropdown.
 
 ::: info
 Catalog structure updates are also synchronized with the relevant Supplier Onboarder. For example, if you add a new required attribute for a family for the Onboarder channel, it will be automatically synchronized on the relevant Supplier Onboarder.
