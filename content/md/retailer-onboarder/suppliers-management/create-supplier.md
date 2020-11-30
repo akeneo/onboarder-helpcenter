@@ -27,7 +27,7 @@ You can use `CSV` or `XLSX` files to import suppliers. The expected header of yo
 * supplier_referent_email: supplier referent email (required)
 * retailer_contact_usernames: main username(s) in charge of this supplier, separated by comas (required)
 * catalog_locales: locale codes, separated by comas (required)
-* user_default_locale: User Interface locale (required)
+* user_default_locale: user interface locale (required)
 * families: family codes, separated by comas (required)
 * allow_product_creation: boolean 0 = No and 1 = Yes (optional)
 :::
