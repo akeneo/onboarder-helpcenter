@@ -23,8 +23,8 @@ The product form contains 4 parts:
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
-* The completeness
-* A menu to select the locale to complete
+* The [completeness](./supplier-synchronization.html#complete-products)
+* A menu to select the [locale](https://help.akeneo.com/pim/serenity/articles/what-is-a-locale.html) to complete
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
 * Some filters to directly access attribute groups or missing attributes

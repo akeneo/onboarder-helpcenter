@@ -7,7 +7,7 @@ popular: false
 
 # How to manage suppliers proposals?
 ## Products
-When a product is completed for a locale on the Supplier Onboarder, you receive a proposal in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. 
+When a product is completed for a locale on the Supplier Onboarder, you receive a [proposal](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html) in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. 
 
 :::info
 A product updated by one of your suppliers will never impact directly your PIM. A review step is mandatory so that you can evaluate the proposal.
