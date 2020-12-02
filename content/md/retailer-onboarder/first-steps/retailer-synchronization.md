@@ -43,7 +43,7 @@ Catalog structure updates are also synchronized with the relevant Supplier Onboa
 As soon as you link a product to a supplier and you set a supplier reference for a product, the attributes mentioned above will be synchronized with the relevant Supplier Onboarder. Therefore, the product will be displayed in the supplier Onboarder product grid.
 
 ::: info
-Suppliers are able to enrich data of *localizable* attributes when they are required on the channel Onboarder and the catalog locales are linked to them.
+To be enriched by a supplier, a **localizable** attribute has to be set as required on the Onboarder channel.  The locales need to be activated at the channel level and linked to each supplier. 
 :::
 
 ## Product Models and variants
