@@ -30,7 +30,7 @@ Product creation works the same way as in the PIM, learn more about it by readin
 :::
 
 ::: warning
-As a supplier you cannot create [product models and variants](/pim/serenity/articles/what-about-products-variants.html). Please contact your retailer to enrich product models and variants. 
+As a supplier you cannot create [product models and variants](/pim/serenity/articles/what-about-products-variants.html). Please contact your retailer to enrich product models and variants.
 :::
 
 # Speed up with import

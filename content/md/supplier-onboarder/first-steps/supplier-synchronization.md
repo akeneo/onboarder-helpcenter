@@ -13,7 +13,7 @@ popular: false
 Your Supplier Onboarder allows you to enrich product information. Your retailer gave you access to the products on which he needs information.
 
 :::info
-As soon as a product is complete, it will automatically be sent to the retailer without any action from your side.
+As soon as a product is complete for one locale, it will automatically be sent to the retailer without any action from your side.
 
 You just have to focus on filling out the required information, we take care of the rest!
 :::

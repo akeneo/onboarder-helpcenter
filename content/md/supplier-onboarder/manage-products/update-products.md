@@ -23,10 +23,11 @@ The product form contains 4 parts:
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
-* Completeness
-* Breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
-* Number of missing attributes
-* Filters to access directly to attribute groups or missing attributes
+* The [completeness](./supplier-synchronization.html#complete-products)
+* A menu to select the [locale](https://help.akeneo.com/pim/serenity/articles/what-is-a-locale.html) to complete
+* A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
+* The number of missing attributes
+* Some filters to directly access attribute groups or missing attributes
 
 :::info
 The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the different levels of the product model.
@@ -40,7 +41,7 @@ The product navigation panel allows you to switch between different sections of 
 * [Attributes](/onboarder/articles/update-products.html#the-attribute-panel): Displays the list of attributes of a product. This section is used to enrich your product. This is the most used view.
 * Assets: Allows you to upload media files when required. This section is only displayed if assets are required to complete the product.
 * Categories: Allows you to categorize your product.
-  
+
 ## The meta data panel
 
 ![Meta data panel highlight](../img/SUPPLIER-pef-metadata.png)
@@ -62,7 +63,7 @@ All the attributes marked with the yellow bullet point are required for the reta
 The attributes without the bullet point are optional and are not taken into account for the completeness calculation. When you complete these attributes, you help the retailer to get better product values.
 
 :::warning
-As soon as a product is complete, it is [automatically sent](/onboarder/articles/supplier-synchronization.html) to the Retailer Onboarder to be reviewed.
+As soon as a product is complete for one locale, it is [automatically sent](/onboarder/articles/supplier-synchronization.html) to the Retailer Onboarder to be reviewed.
 :::
 
 :::info
