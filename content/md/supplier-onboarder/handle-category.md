@@ -85,7 +85,7 @@ Selected categories are ticked for your product.
 ### With the user interface
 
 To classify/unclassify a product:
-1.  Select your product in the product grid Product
+1.  Select your product in the product grid
 1.  Click on the `Categories` menu on the left side of the screen
 1.  Tick the categories in which you want to classify the product
 1.  And/or untick the categories in which the product should no longer be listed
@@ -93,7 +93,7 @@ To classify/unclassify a product:
 
 ### With imports
 
-You can also update your products' categories using product imports. To do so, add the category code in the `Categories column` used to import categories.
+You can also update your products' categories using product imports. To do so, add the category code separated by commas in the `Categories column` used to import categories.
 
 ::: warning
 Product imports overwrite existing product data. Make sure to keep the existing categories along with new ones in your imported file.
