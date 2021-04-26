@@ -5,27 +5,37 @@ title: Handle **categories**
 popular: false
 ---
 
-# Definition of a category
-In Akeneo Onboarder, you can use **a category to classify products**. A category is always part of a category tree (or *classification tree*).
+# Definitions
+## Definition of a family
+In Akeneo Onboarder, a product can only be defined by one family and its specific set of attributes. A family **defines the structure of products**.
+
+:::info
+The [attributes](./onboarder/articles/update-products.html#the-attribute-panel) are the different information that you'll have to provide.
+:::
+
+## Definition of a category
+In Akeneo Onboarder, you can create a tree of categories to help you to sort your products and find them. The categories are used to **classify a product**. A category is always part of a category tree (or *classification tree*).
 
 As an Onboarder user, you can only have **one category tree** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories).
 
 ![image of the category trees](../img/Settings_CategoryTree.png)
 
+
+
 ## Differences between families and categories
-In this section, we define two principles of the Akeneo Onboarder: *Categories* and *Families*.
+In this section, we define two key concepts of the Akeneo Onboarder: *Categories* and *Families*.
 ### Categories
 
 - Trees and categories are a way to classify your products  
-- A product can be in several or no categories
+- You can classify a product in one or several categories. It's possible for a product to not be in a category, in that case, it goes to the 'Unclassified' Category by default.
 
 ### Families
 
 - A family is a *set of attributes* used to enrich a product  
-- A product can only belong to one family
+- A product can only be defined by one family and its specific set of attributes.
 
 ## Note about category visibility
-The category tree is **not** visible in the Akeneo PIM of you retailer or distributor. But for each product you create, the category is displayed for [new product proposal](/onboarder/articles/supplier-synchronization.html) into the PIM.
+The category tree you are going to generate will **not** be visible in the Akeneo PIM of your retailer or distributor. But for each product you create, the category name is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the Akeneo PIM users, on the retailer or distributor side, will be able to see it.
 
 # Manage your categories
 ## How to create a new category?
@@ -36,8 +46,20 @@ Go to the `Categories` tab to manage all your categories.
 You can only create **one** category tree in the Onboarder.
 :::
 
-To add a new category or subcategory in your category tree:
-1. Select the category where you want to create a subcategory,
+
+Start by creating the root of your category tree:
+1. Click on `Create a new category`
+1. Name it and save your first category
+
+Then to add a new category bellow the category root:
+1. Select the category root,
+1. Right-click on the selected category,
+1. Click on the `Create` button,
+1. Fill in the code and translations fields,
+1. Save your changes.
+
+And, if you want to create a new category or subcategory in your category tree:
+1. Select the category above the place where you want to create a subcategory,
 1. Right-click on the selected category,
 1. Click on the `Create` button,
 1. Fill in the code and translations fields,
@@ -48,7 +70,6 @@ To add a new category or subcategory in your category tree:
 ::: info
 You can translate your category labels in all the locales you use.
 :::
-
 
 ## Sort categories
 
