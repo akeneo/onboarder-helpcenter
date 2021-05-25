@@ -23,15 +23,15 @@ As an Onboarder user, you can only have **one category tree** in Akeneo with an 
 
 
 ## Differences between families and categories
-In this section, we define two key concepts of the Akeneo Onboarder: *Categories* and *Families*.
+In this section, we compare two key concepts of the Akeneo Onboarder: *Categories* and *Families*.
 ### Categories
 
-- Trees and categories are a way to classify your products  
+- Trees and categories are a way to classify your products.
 - You can classify a product in one or several categories. It's possible for a product to not be in a category, in that case, it goes to the 'Unclassified' Category by default.
 
 ### Families
 
-- A family is a *set of attributes* used to enrich a product  
+- A family is a *set of attributes* used to enrich a product.
 - A product can only be defined by one family and its specific set of attributes.
 
 ## Note about category visibility
