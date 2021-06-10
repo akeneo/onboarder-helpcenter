@@ -10,11 +10,11 @@ popular: false
 In Akeneo Onboarder, a product can only be defined by one family and its specific set of attributes. A family **defines the structure of products**.
 
 :::info
-The [attributes](./onboarder/articles/update-products.html#the-attribute-panel) are the different information that you'll have to provide.
+The [attributes](./onboarder/articles/update-products.html#the-attribute-panel) are the different pieces of information that you'll have to provide.
 :::
 
 ## Definition of a category
-In Akeneo Onboarder, you can create a tree of categories to help you to sort your products and find them. The categories are used to **classify a product**. A category is always part of a category tree (or *classification tree*).
+In Akeneo Onboarder, you can create a category tree to help you to sort your products and find them. The categories are how you **classify a product**. A category is always part of a category tree (or *classification tree*).
 
 As an Onboarder user, you can only have **one category tree** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories).
 
@@ -27,7 +27,7 @@ In this section, we compare two key concepts of the Akeneo Onboarder: *Categorie
 ### Categories
 
 - Trees and categories are a way to classify your products.
-- You can classify a product in one or several categories. It's possible for a product to not be in a category, in that case, it goes to the 'Unclassified' Category by default.
+- You can classify a product in one or several categories. It's possible for a product not to be in a category, in that case, it goes to the 'Unclassified' Category by default.
 
 ### Families
 
@@ -35,12 +35,13 @@ In this section, we compare two key concepts of the Akeneo Onboarder: *Categorie
 - A product can only be defined by one family and its specific set of attributes.
 
 ## Note about category visibility
-The category tree you are going to generate will **not** be visible in the Akeneo PIM of your retailer or distributor. But for each product you create, the category name is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the Akeneo PIM users, on the retailer or distributor side, will be able to see it.
+The category tree, and therefore your own internal product hierarchy,  will **not** be visible in the Akeneo PIM of your retailer or distributor. But, the category name of the product you create is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the retailer or distributor 
+ Akeneo PIM users will be able to see it.
 
 # Manage your categories
 ## How to create a new category?
 
-Go to the `Categories` tab to manage all your categories.
+Go to `Categories` to manage all your categories.
 
 ::: info
 You can only create **one** category tree in the Onboarder.
@@ -54,15 +55,15 @@ Start by creating the root of your category tree:
 Then to add a new category bellow the category root:
 1. Select the category root,
 1. Right-click on the selected category,
-1. Click on the `Create` button,
-1. Fill in the code and translations fields,
+1. Click on `Create`,
+1. Fill in the code and translation fields,
 1. Save your changes.
 
 And, if you want to create a new category or subcategory in your category tree:
-1. Select the category above the place where you want to create a subcategory,
+1. Select the category where the subcategory will belong,
 1. Right-click on the selected category,
-1. Click on the `Create` button,
-1. Fill in the code and translations fields,
+1. Click on `Create`,
+1. Fill in the code and translation fields,
 1. Save your changes.
 
 ![image of creating button to add a new category](../img/Settings_CreateASubcategory.png)
@@ -80,15 +81,15 @@ From the UI, you can drag & drop categories to reorder them within the tree.
 # How to categorize a product?
 
 ::: info
-A product can be classified in none, one, or multiple categories.
+A product can be classified into no, one, or multiple categories.
 :::
 
 ## View the categories of a product
 ### In the Product Form
 
-1.  Click on the `Categories` menu
-1.  A green point near the Category tree indicates if the product is classified in this tree. Next to the category tree name, a number tells you in how many categories the product has been added
-1.  Click on the category tree name to see the categories the products belong to
+1.  Click on `Categories`
+1.  A green point near the Category tree indicates if the product is classified in this tree. Next to the category tree name, a number tells you in how many categories you can find the product
+1.  Click on the category tree name to see to which the categories the products belong
 
 Selected categories are ticked for your product.
 
@@ -97,24 +98,24 @@ Selected categories are ticked for your product.
 ### With the shortcut in the grid
 
 1.  Select a product in the product grid
-1.  Hover your mouse over the product line in the grid to display the category button (a folder icon) will be displayed
-1.  Click on the `Classify the product` button. You are redirected to the [category menu](/handle-category.html#in-the-product-form).
+1.  Hover your mouse over the product line in the grid to display the category button (a folder icon)
+1.  Click on `Classify the product. You are redirected to the [category menu](/handle-category.html#in-the-product-form).
 ![Hover grid](../img/Products_GridHover_Category.png)
 
 
-## Classify/unclassify a product in/from categories
-### With the user interface
+## Classify/unclassify a product
+### From the user interface
 
 To classify/unclassify a product:
 1.  Select your product in the product grid
-1.  Click on the `Categories` menu on the left side of the screen
+1.  Click on `Categories` on the left side of the screen
 1.  Tick the categories in which you want to classify the product
 1.  And/or untick the categories in which the product should no longer be listed
-1.  Then click on the "Save" button
+1.  Then click on "Save"
 
 ### With imports
 
-You can also update your products' categories using product imports. To do so, add the category code separated by commas in the `Categories column` used to import categories.
+You can also update your products' categories using product imports. To do so, add the category codes separated by commas in the `Categories column` used to import categories.
 
 ::: warning
 Product imports overwrite existing product data. Make sure to keep the existing categories along with new ones in your imported file.
