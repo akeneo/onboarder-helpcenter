@@ -7,7 +7,7 @@ popular: false
 
 # Definitions
 ## Definition of a family
-In Akeneo Onboarder, a product can only be defined by one family and its specific set of attributes. A family **defines the structure of products**.
+In Akeneo Onboarder, a product can only be defined by *one* family and its specific set of attributes. A family **defines the structure of products**.
 
 :::info
 The [attributes](./onboarder/articles/update-products.html#the-attribute-panel) are the different pieces of information that you'll have to provide.
@@ -18,24 +18,22 @@ In Akeneo Onboarder, you can create a category tree to help you to sort your pro
 
 As an Onboarder user, you can only have **one category tree** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories).
 
+You can classify a product in one or several categories. It's possible for a product to not be in a category, in that case, it goes to the 'Unclassified' Category by default.
+
 ![image of the category trees](../img/Settings_CategoryTree.png)
 
 
 
 ## Differences between families and categories
-In this section, we compare two key concepts of the Akeneo Onboarder: *Categories* and *Families*.
-### Categories
+In this section, we'll take an example to compare two key concepts of the Akeneo Onboarder: *Families* and *Categories*.
 
-- Trees and categories are a way to classify your products.
-- You can classify a product in one or several categories. It's possible for a product not to be in a category, in that case, it goes to the 'Unclassified' Category by default.
+Our catalog contains lots of furnitures: chairs and tables for instance.
+On the one hand, for chairs you'll define: heigh, material, seat depth, foam softness, etc, And, for table you'll define heigh, length, with of the board, number of feet, etc. You see that the two products don't have the same properties, it means that the sets of attributes are different. Finally, they belong to separated **families**.
 
-### Families
-
-- A family is a *set of attributes* used to enrich a product.
-- A product can only be defined by one family and its specific set of attributes.
+On the other hand, for all kind of furnitures, you can set them in the indoor or outdoor section of your catalog by using a **category**. In our example, the chairs and tables can be one, both or none of the categories.
 
 ## Note about category visibility
-The category tree, and therefore your own internal product hierarchy,  will **not** be visible in the Akeneo PIM of your retailer or distributor. But, the category name of the product you create is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the retailer or distributor 
+The category tree, and therefore your own internal product hierarchy,  will **not** be visible in the Akeneo PIM of your retailer or distributor. But, the category name of the product you create is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the retailer or distributor
  Akeneo PIM users will be able to see it.
 
 # Manage your categories
@@ -87,11 +85,7 @@ A product can be classified into no, one, or multiple categories.
 ## View the categories of a product
 ### In the Product Form
 
-1.  Click on `Categories`
-1.  A green point near the Category tree indicates if the product is classified in this tree. Next to the category tree name, a number tells you in how many categories you can find the product
-1.  Click on the category tree name to see to which the categories the products belong
-
-Selected categories are ticked for your product.
+Click on `Categories` to see all selected categories for this product. 
 
 ![Categories menu](../img/Products_PEF_Category-menu.png)
 
