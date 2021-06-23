@@ -30,7 +30,7 @@ In this section, we'll take an example to compare two key concepts of Akeneo Onb
 Our furniture catalog contains chairs and tables.
 First of all, for chairs, you'll define the height, the fabric, seat depth, the foam density, etc. For tables, you'll define the height, the length, the width of the board, the number of feet, etc.  As you can see, you use different properties to describe both products, which means that the sets of attributes you will use will be different. In the end, they belong to two different **families**.
 
-On the other hand, for all kind of furnitures, you can set them in the indoor or outdoor section of your catalog by using a **category**. In our example, the chairs and tables can be one, both or none of the categories.
+Then, all of your furniture can belong to the indoor or outdoor section of your catalog, which is structured by a **category**. In our example, the chairs and tables can be one, both, or none of the categories.
 
 ## Note about category visibility
 The category tree, and therefore your own internal product hierarchy,  will **not** be visible in the Akeneo PIM of your retailer or distributor. But, the category name of the product you create is included and visible in the [new product proposal](/onboarder/articles/supplier-synchronization.html). Therefore, the retailer or distributor
@@ -85,7 +85,7 @@ A product can be classified into no, one, or multiple categories.
 ## View the categories of a product
 ### In the Product Form
 
-Click on `Categories` to see all selected categories for this product. 
+Click on `Categories` to see all selected categories for this product.
 
 ![Categories menu](../img/Products_PEF_Category-menu.png)
 
