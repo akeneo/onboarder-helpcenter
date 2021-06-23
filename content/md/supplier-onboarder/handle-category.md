@@ -25,10 +25,10 @@ You can classify a product in one or several categories. It's possible for a pro
 
 
 ## Differences between families and categories
-In this section, we'll take an example to compare two key concepts of the Akeneo Onboarder: *Families* and *Categories*.
+In this section, we'll take an example to compare two key concepts of Akeneo Onboarder: *Families* and *Categories*.
 
-Our catalog contains lots of furnitures: chairs and tables for instance.
-On the one hand, for chairs you'll define: heigh, material, seat depth, foam softness, etc, And, for table you'll define heigh, length, with of the board, number of feet, etc. You see that the two products don't have the same properties, it means that the sets of attributes are different. Finally, they belong to separated **families**.
+Our furniture catalog contains chairs and tables.
+First of all, for chairs, you'll define the height, the fabric, seat depth, the foam density, etc. For tables, you'll define the height, the length, the width of the board, the number of feet, etc.  As you can see, you use different properties to describe both products, which means that the sets of attributes you will use will be different. In the end, they belong to two different **families**.
 
 On the other hand, for all kind of furnitures, you can set them in the indoor or outdoor section of your catalog by using a **category**. In our example, the chairs and tables can be one, both or none of the categories.
 
