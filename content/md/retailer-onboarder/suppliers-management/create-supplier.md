@@ -30,9 +30,13 @@ Then you can create your suppliers with the file you built by following these st
 1. Drag your file in the drop area or browse disk,
 1. Click `Upload and import now`.
 
-The process tracker page is prompted. You can follow the progress of the import.
+You are redirected to the Process tracker page. You can follow the progress of the import.
 
-When finished your suppliers are created and they are visible into the suppliers grid. All of them will receive a welcome email.
+When finished, your suppliers are created and you can see them in the suppliers' grid.
+
+::: info  
+When you create a supplier, the user linked to it receives a welcome email.
+:::
 
 ::: warning
 The suppliers cannot create product models and variants. You'll need to [link them with each product variant](/onboarder/articles/define-product-supplier.html).
@@ -40,7 +44,6 @@ The suppliers cannot create product models and variants. You'll need to [link th
 
 # Use the interface
 
-![Create a supplier with the User Interface](../img/RETAILER_Suppliers_Suppliers_CreateASupplier.png)
 Otherwise, you can directly create and edit the supplier into the interface by following these steps:
 1. Access to your Onboarder from the PIM,
 1. Click `Suppliers`
@@ -49,3 +52,5 @@ Otherwise, you can directly create and edit the supplier into the interface by f
 1. `Save`
 
 Your suppliers are created.
+
+![Create a supplier with the User Interface](../img/RETAILER_Suppliers_Suppliers_CreateASupplier.png)
