@@ -32,6 +32,10 @@ Custom attributes are not supported by the Onboarder and suppliers are not able 
 :::
 
 ::: warning
+Table attribute is not supported by the Onboarder and suppliers are not able to enrich table attribute data.
+:::
+
+::: warning
 When you [create a supplier](/onboarder/articles/create-supplier.html), you can choose to allow them to create products.
 In order to avoid conflict of data, the Onboarder blocks the **creation** of product models and variants by suppliers but you can still [assign them variants](/onboarder/articles/define-product-supplier.html).
 :::
