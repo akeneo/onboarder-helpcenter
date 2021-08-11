@@ -8,7 +8,7 @@ There are two ways to create suppliers into the Onboarder:
 
 # Use flat file imports
 
-You can use `CSV` or `XLSX` files to import suppliers. The expected header of your supplier import file is the following:
+You can use `CSV` or `XLSX` files to import suppliers. The expected headers of your supplier import file are the following:
 * _code_: code of the supplier (required)
 * _name_: name of the supplier (required)
 * _supplier_contact_emails_: supplier referent email, separated by comas (required)
@@ -19,7 +19,7 @@ You can use `CSV` or `XLSX` files to import suppliers. The expected header of yo
 * _allow_product_creation_: boolean 0 = No and 1 = Yes (optional)
 
 ::: warning
-Formerly the column _supplier_contact_emails_ was named _supplier_referent_email_. To continue using your import files, you must change this column header.
+Formerly the column _supplier_contact_emails_ was named _supplier_referent_email_. To continue using the same import file you were using, you must change this column header.
 :::
 
 Then you can create your suppliers with the file you built by following these steps:
