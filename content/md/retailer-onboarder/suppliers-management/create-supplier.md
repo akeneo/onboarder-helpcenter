@@ -24,18 +24,18 @@ Formerly the column _supplier_contact_emails_ was named _supplier_referent_email
 
 Then you can create your suppliers with the file you built by following these steps:
 1. Access to your Onboarder from the PIM,
-1. Click `Import` on the Suppliers page,
+1. Click on `Import` on the Suppliers page,
 1. Select `CSV` or `XLSX`,
-1. Click `Upload a file`,
+1. Click on `Upload a file`,
 1. Drag your file in the drop area or browse disk,
-1. Click `Upload and import now`.
+1. Click on `Upload and import now`.
 
-You are redirected to the Process tracker page. You can follow the progress of the import.
+You are redirected to the Process tracker page, where you can follow the import progress.
 
 When finished, your suppliers are created and you can see them in the suppliers' grid.
 
 ::: info  
-When you create a supplier, the user linked to it receives a welcome email.
+When you create a supplier, the linked user receives a welcome email.
 :::
 
 ::: warning
@@ -46,8 +46,8 @@ The suppliers cannot create product models and variants. You'll need to [link th
 
 Otherwise, you can directly create and edit the supplier into the interface by following these steps:
 1. Access to your Onboarder from the PIM,
-1. Click `Suppliers`
-1. Click `Create`
+1. Click on `Suppliers`
+1. Click on `Create`
 1. Fill in the required information (see supplier definition to learn more about the expected properties)
 1. `Save`
 
