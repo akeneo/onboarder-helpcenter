@@ -1,12 +1,14 @@
 ---
-id: create-supplier
+id: manage-supplier
 themes: supplier-management
-title: Create supplier
+title: Manage suppliers
 popular: true
 ---
+# Create suppliers
+
 There are two ways to create suppliers into the Onboarder:
 
-# Use flat file imports
+## Use flat file imports
 
 You can use `CSV` or `XLSX` files to import suppliers. The expected headers of your supplier import file are the following:
 * _code_: code of the supplier (required)
@@ -42,7 +44,7 @@ When you create a supplier, the linked user receives a welcome email.
 The suppliers cannot create product models and variants. You'll need to [link them with each product variant](/onboarder/articles/define-product-supplier.html).
 :::
 
-# Use the interface
+## Use the interface
 
 Otherwise, you can directly create and edit the supplier into the interface by following these steps:
 1. Access to your Onboarder from the PIM,
@@ -54,3 +56,18 @@ Otherwise, you can directly create and edit the supplier into the interface by f
 Your suppliers are created.
 
 ![Create a supplier with the User Interface](../img/RETAILER_Suppliers_Suppliers_CreateASupplier.png)
+
+# Delete supplier
+During your use of Onboarder, you may need to delete suppliers because you no longer work with them or you reach you quota. There are two ways to proceed:
+- From the supplier page
+![Delete from supplier page](../img/NAME_IT.png)
+- From suppliers list
+![Delete from supplier list](../img/NAME_IT.png)
+
+Once you choose to delete a supplier, there are several consequences you should be aware of:
+1. All the supplier users connected to this supplier will be unlink from it, and no longer have access to the Onboarder,
+1. All data stored into the Onboarder will be deleted. Make sure they completed all required data and you have it into the PIM before you proceed to deletion.
+
+::: warning
+If after some time, you decide to create again a supplier that has been previously removed, the data won't be recovered as a new supplier will be created from scratch.
+::: 
