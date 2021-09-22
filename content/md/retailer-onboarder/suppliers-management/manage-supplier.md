@@ -86,7 +86,7 @@ During your use of Onboarder, you may need to delete suppliers for different rea
 
 Once you choose to delete a supplier, there are several consequences you should be aware of:
 1. All the supplier users connected to this supplier will be unlinked from it and no longer have access to Akeneo Onboarder,
-1. All data stored in Akeneo Onboarder will be deleted. Make sure they completed all required data, and you have it into the PIM before you proceed to deletion.
+1. All data stored in Akeneo Onboarder will be deleted (products, their values and assets). Make sure they completed all required data, and you have it into the PIM before you proceed to deletion.
 
 ::: warning
 If, after some time, you decide to create again a supplier that has been previously removed, the data won't be recovered as a new supplier will be created from scratch.
