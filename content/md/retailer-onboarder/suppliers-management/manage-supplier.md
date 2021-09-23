@@ -80,9 +80,12 @@ You are redirected to the Process tracker page, where you can follow the import 
 # Delete supplier
 During your use of Onboarder, you may need to delete suppliers for different reasons. There are two ways to proceed:
 - From the supplier page
-![Delete from supplier page](../img/NAME_IT.png)
+![Delete from supplier page](../img/RETAILER_DeleteSupplier_Form.png)
 - From suppliers list
-![Delete from supplier list](../img/NAME_IT.png)
+![Delete from supplier list](../img/RETAILER_DeleteSupplier_List.png)
+
+In both cases, you'll need to confirm this action.
+![Modal confirmation](../img/RETAILER_DeleteSupplier_Modal.png)
 
 Once you choose to delete a supplier, there are several consequences you should be aware of:
 1. All the supplier users connected to this supplier will be unlinked from it and no longer have access to Akeneo Onboarder,
