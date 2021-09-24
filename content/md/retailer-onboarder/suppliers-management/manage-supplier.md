@@ -89,6 +89,7 @@ In both cases, you'll need to confirm this action.
 
 Once you choose to delete a supplier, there are several consequences you should be aware of:
 1. All the supplier users connected to this supplier will be unlinked from it and no longer have access to Akeneo Onboarder,
+1. The _supplier_ and _supplier ref_ of products that are assigned to the deleted supplier will be purged in the same time,
 1. All data stored in Akeneo Onboarder will be deleted (products, their values and assets). Make sure they completed all required data, and you have it into the PIM before you proceed to deletion.
 
 ::: warning
