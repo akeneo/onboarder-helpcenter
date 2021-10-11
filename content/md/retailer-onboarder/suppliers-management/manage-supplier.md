@@ -6,7 +6,7 @@ popular: true
 ---
 # Create suppliers
 
-There are two ways to create suppliers into Akeneo Onboarder:
+There are two ways to create suppliers in Akeneo Onboarder:
 1. Fill in the supplier form,
 1. Import a flat files.
 
@@ -25,7 +25,7 @@ When creating a supplier, you must provide the following information:
 | Product creation | _allow_product_creation_ | Toggle to authorize product creation by the supplier. | Optional |
 
 
-Once you create the suppliers, you can directly see them in the suppliers' grid.
+Once you've created the suppliers, you can directly see them in the suppliers' grid.
 
 ::: info  
 When you create a supplier, the supplier contact user receives a welcome email.
@@ -41,8 +41,8 @@ The suppliers cannot create product models and variants. You'll need to [link th
 Before creating a supplier, make sure you already created the supplier contact users associated to it.
 :::
 
-You can directly create and edit the supplier into the interface by following these steps:
-1. Access to your Onboarder from the PIM,
+You can directly create and edit the supplier from the interface by following these steps:
+1. Access your Onboarder from the PIM,
 1. Click on `Suppliers`
 1. Click on `Create`
 1. Fill in the required information (see supplier definition to learn more about the expected properties)
@@ -55,19 +55,19 @@ Your supplier is created.
 
 ## Use flat-file import
 
-Otherwise, you can use `CSV` or `XLSX` files to import suppliers.
+You can also use `CSV` or `XLSX` files to import suppliers.
 You can download a template containing the header with the code for each column.
 
-When you fill in the columns _supplier_contact_emails_, _retailer_contact_usernames_, _catalog_locales_, _families_, the values must be separated by comas.
+When you fill in the _supplier_contact_emails_, _retailer_contact_usernames_, _catalog_locales_, _families_, columns the values must be separated by comas.
 
-And the column _allow_product_creation_ is the boolean with 0 for _No_ and 1 for _Yes_.
+And the _allow_product_creation_ column is boolean with 0 for _No_ and 1 for _Yes_.
 
 ::: warning
-Formerly the column _supplier_contact_emails_ was named _supplier_referent_email_. To continue using the same import file you were using, you must change this column header.
+Formerly the _supplier_contact_emails_ column was named _supplier_referent_email_. To continue using the same import file you were using, you must change this column header.
 :::
 
 Then you can create your suppliers with the file you completed by following these steps:
-1. Access to your Onboarder from the PIM,
+1. Access your Onboarder from the PIM,
 1. Click on `Import` on the Suppliers page,
 1. Select `CSV` or `XLSX`,
 1. Click on `Upload a file`,
@@ -88,10 +88,10 @@ In both cases, you'll need to confirm this action.
 ![Modal confirmation](../img/RETAILER_DeleteSupplier_Modal.png)
 
 Once you choose to delete a supplier, there are several consequences you should be aware of:
-1. All the supplier users connected to this supplier will be unlinked from it and no longer have access to Akeneo Onboarder,
-1. The _supplier_ and _supplier ref_ of products that are assigned to the deleted supplier will be purged in the same time,
+1. All the supplier users connected to this supplier will be unlinked from it and will no longer have access to Akeneo Onboarder,
+1. The _supplier_ and _supplier ref_ of products that are assigned to the deleted supplier will be purged at the same time,
 1. All data stored in Akeneo Onboarder will be deleted (products, their values and assets). Make sure they completed all required data, and you have it into the PIM before you proceed to deletion.
 
 ::: warning
-If, after some time, you decide to create again a supplier that has been previously removed, the data won't be recovered as a new supplier will be created from scratch.
+If, after some time, you decide to create a supplier that has been previously removed, the data won't be recovered as a new supplier will be created from scratch.
 :::
