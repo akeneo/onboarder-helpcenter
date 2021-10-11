@@ -40,5 +40,5 @@ If you prefer using the User Interface, you can follow these steps to create a s
 Your suppliers' users are created! Keep in mind you can create up to 3 users per supplier.
 
 ::: info
-Take care of the email you set for the user; it will be used to send the invitation link to log in the Supplier Onboarder.
+Pay attention to the email you set for the user; it will be used to send the invitation link to log in the Supplier Onboarder.
 :::
