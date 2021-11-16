@@ -24,10 +24,25 @@ Suppliers can only share assets belonging to an asset family if their main media
 If the attribute used as the main media of the asset family linked to this asset collection is a media link attribute, the collection won't be synchronized on the supplier's end and they won't be able to send the assets.
 :::
 
-## Asset code uniqueness
+##  New asset code uniqueness
+
+Before, asset code was generating using only UUID, now there is a new asset code generation
+
 As many suppliers can be working on the same asset collection at the same time, they could set the same asset code twice. The Onboarder puts a constraint on suppliers to guarantee the uniqueness of asset codes among all suppliers.
 * A supplier can't create an asset code
-* The asset code is automatically generated using a UUID
+* The asset code is automatically generated using a concatenation of :
+  - supplier code
+  - filename
+  - uuid
+
+For example, the supplier 'pac' upload new asset called brown-chair.jpg, the asset code will be something like :
+ - pac_brown_chair_8d704905_fbf9_42b9_94af_eb399dbaaaf2.jpg
+
+You can easily create a rule on it, you can guess from the beginning of the asset code, which supplier added it
+
+Regex could be : ```/^pac_/``` meaning the asset code must start by this string
+
+**You need to reupload previous assets to have the new asset code format.**
 
 ::: info
 The unique code will be visible in the Asset Library but you still can [change the asset label](https://help.akeneo.com/pim/serenity/articles/work-on-your-assets.html).
