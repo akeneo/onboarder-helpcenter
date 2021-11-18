@@ -35,7 +35,7 @@ As many suppliers can be working on the same asset collection at the same time, 
 
 Here is the asset code format: `<supplier_code>_<filename>_<uuid>`
 
-For example, the supplier `supplier1` upload a new asset called `chair-packshot.jpg`, the asset code will be: `supplier1_chair_packshot_8d704905_fbf9_42b9_94af_eb399dbaaaf2.jpg`
+For example, the supplier `supplier1` uploads a new asset called `chair-packshot.jpg`, the asset code will be: `supplier1_chair_packshot_8d704905_fbf9_42b9_94af_eb399dbaaaf2.jpg`
 
 You can easily create product link rules to automatically link assets to products/product models based on assets filenames (More info on [product link rules](https://help.akeneo.com/pim/serenity/articles/assets-product-link-rules.html)).
 On our example, regex could be: `(?<supplier_code>.*?)_(?<product_ref>.*?)_(?<attribute_ref>.*?)_(.*).jpg`
