@@ -7,13 +7,21 @@ popular: false
 
 # How to manage suppliers proposals?
 ## Products
-When a product is completed for a locale on the Supplier Onboarder, you receive a [proposal](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html) in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. 
+When a product is completed for a locale on the Supplier Onboarder, you receive a [proposal](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html) in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. At that moment, the product status is `Waiting for approval` for the supplier.
+After you approve or reject a product, the product status is updated to `Approved` or `Rejected` for the supplier.
 
-:::info
+::: info
+A product gets the status `Approved` when all its values are accepted. Otherwise, if you reject at least on of the attributes, the product is marked as `Rejected`.
+:::
+
+::: warning
 A product updated by one of your suppliers will never impact directly your PIM. A review step is mandatory so that you can evaluate the proposal.
 :::
 
 You can review the suggestions made by suppliers in the [PIM proposals](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html).
+<!-- TO ADD WHEN COMMENTS WILL BE AVAILABLE
+Each time you make a comment on a proposal, the supplier can see it on its product view.
+-->
 
 ## Product models with variants
 [Product models with variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html) are specific type of products you can receive proposals for.

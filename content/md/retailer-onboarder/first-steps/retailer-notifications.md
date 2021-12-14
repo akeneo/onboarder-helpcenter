@@ -9,14 +9,14 @@ popular: false
 
 ![notifications](../img/notifications.svg)
 
-You can get 2 different types of notifications from the Onboarder.
+You can get two different types of notifications from Akeneo Onboarder.
 
 ## New product suggestions
-The first one is when the supplier creates a new product and as soon as it is marked as `complete`. In that case, you can go in the `Product Data` page into the Retailer Onboarder to accept or reject the new product suggestions.
+The first one is when the supplier creates a new product and when s/he completes all required attributes of the product, then the product status is updated to `Waiting for approval`. In that case, you can go to the `Product Data` page of the Retailer Onboarder to accept or reject the new product suggestions.
 
 ## Enrichment proposals
-When you assign a product to a supplier, they are able to enrich it. Then, as soon as a product is 100% complete in the Supplier Onboarder, it is automatically sent to your PIM and you'll be notified that you have proposals to review via the notification center.
+When you assign a product to a supplier, they can enrich it. Then in the Supplier Onboarder, suppliers see the product as `To enrich`. Once the supplier completes all required attributes of the product, its status changes to `Waiting for approval`. The product is automatically sent to your PIM, and you'll be notified that you have a proposal to review via the notification center.
 
 ::: info
-In both cases, only the PIM users linked to the supplier receive the notifications.
+Only the PIM users linked to the supplier receive the notifications in both cases.
 :::
