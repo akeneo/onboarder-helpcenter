@@ -9,7 +9,7 @@ popular: false
 
 ![notifications](../img/notifications.svg)
 
-As a supplier, you'll notified by email twice a week.
+As a supplier, you'll be notified by email twice a week.
 
 In this email you'll find the count of all products with the following statuses:
 * `To enrich`: all the new or existing products that are not completed yet,

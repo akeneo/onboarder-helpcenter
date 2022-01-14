@@ -7,11 +7,11 @@ popular: false
 
 # How to manage suppliers proposals?
 ## Products
-When a product is completed for a locale on the Supplier Onboarder, you receive a [proposal](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html) in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. At that moment, the product status is `Waiting for approval` for the supplier.
-After you approve or reject a product, the product status is updated to `Approved` or `Rejected` for the supplier.
+When a product is completed for a locale on the Supplier Onboarder, you receive a [proposal](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html) in your PIM. For example, when [all attributes defined as required for the channel Onboarder on a specific locale](/onboarder/articles/define-product-requirements.html) are filled in by the supplier. At that moment, the [product status](./supplier-synchronization.html#simple-and-transparent-statuses) is `Waiting for approval` for the supplier.
+After you approve or reject a product, the [product status](./supplier-synchronization.html#simple-and-transparent-statuses) is updated to `Approved` or `Rejected` for the supplier.
 
 ::: info
-A product gets the status `Approved` when all its values are accepted. Otherwise, if you reject at least on of the attributes, the product is marked as `Rejected`.
+A product gets the status `Approved` when all its values are accepted. Otherwise, if you reject at least one of the attributes, the product is marked as `Rejected`.
 :::
 
 ::: warning
