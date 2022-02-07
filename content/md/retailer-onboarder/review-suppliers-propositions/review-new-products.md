@@ -56,9 +56,12 @@ New assets suggested by suppliers are included in the new product and they are a
 
 If you need to reject a prereferenced product, you just need to click on `Reject`. Then, the supplier will see this product with the status `Rejected`.
 
-<!-- To add when the comments will be available.
-If you need to reject a prereferenced product, you just need to click on `Reject`. Then, you can add a comment to inform the supplier. In the supplier Onboarder, the product has the status `Rejected` and the supplier can see you comment.
 
--->
+If you need to reject a prereferenced product, you just need to click on `Reject`. On the supplier Onboarder, the product is visible `Rejected`.
+
+::: warning
+Comments won't be visible for now on the Supplier Onboarder, we are working on it.
+::: 
+
 
 ![Prereferenced product Reject button](../img/RETAILER_Preref_PEF_reject.jpg)

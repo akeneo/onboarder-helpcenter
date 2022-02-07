@@ -23,7 +23,7 @@ The product form contains 4 parts:
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
-* The [status](./supplier-synchronization.html#simple-and-transparent-statuses)
+* The [status](./supplier-synchronization.html#simple-and-transparent-statuses) _(not yet available on product model levels)_
 * A menu to select the [locale](https://help.akeneo.com/pim/serenity/articles/what-is-a-locale.html) to complete
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
@@ -67,9 +67,8 @@ As soon as a product is complete for one locale, it is [automatically sent](/onb
 :::
 
 :::info
-The statuses for product models are calculated only on product variants.
-<!-- ADD RULES FOR THE PRODUCT MODELS WHEN DEFINED
--->
+The statuses for product models are only calculated on product variants.
+Statuses for product model levels are not yet available, we are working on it. 
 The breadcrumb shows the number of complete product variants. You can see more details by clicking on the breadcrumb.
 :::
 

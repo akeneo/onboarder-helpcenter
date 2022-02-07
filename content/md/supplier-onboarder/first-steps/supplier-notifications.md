@@ -20,3 +20,7 @@ Then in the body of the message tells you the number of approved, rejected and n
 -->
 
 You can click on on numbers or buttons to access to the Onboarder with the related products.
+
+::: warning
+Product models are not yet included in this calculation. We are working on it.
+::: 

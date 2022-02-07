@@ -19,6 +19,10 @@ A product updated by one of your suppliers will never impact directly your PIM. 
 :::
 
 You can review the suggestions made by suppliers in the [PIM proposals](https://help.akeneo.com/pim/serenity/articles/review-products-proposals.html).
+
+::: warning
+The comments you make on product proposals are still not visible on the supplier side. We are working on it.
+:::
 <!-- TO ADD WHEN COMMENTS WILL BE AVAILABLE
 Each time you make a comment on a proposal, the supplier can see it on its product view.
 -->
@@ -34,6 +38,10 @@ For the product model values, you receive a proposal:
 * and then each time a product model is updated.
 
 For the product variant values, you receive a proposal each time a supplier completes or updates a product variant.
+
+::: warning
+Statuses on product models are not yet available, we are working on it. 
+:::
 
 ## Assets
 When new assets are suggested by suppliers, they are included in the proposals and automatically added to the right asset collection when the new product is accepted.
