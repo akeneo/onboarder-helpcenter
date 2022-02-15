@@ -23,7 +23,7 @@ The product form contains 4 parts:
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
-* The [completeness](./supplier-synchronization.html#complete-products)
+* The [status](./supplier-synchronization.html#simple-and-transparent-statuses) _(not yet available on product model levels)_
 * A menu to select the [locale](https://help.akeneo.com/pim/serenity/articles/what-is-a-locale.html) to complete
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
@@ -60,14 +60,16 @@ The attribute panel displays all the attributes you can enrich in the Onboarder.
 ### Completeness
 All the attributes marked with the yellow bullet point are required for the retailer.
 
-The attributes without the bullet point are optional and are not taken into account for the completeness calculation. When you complete these attributes, you help the retailer to get better product values.
+The attributes without the bullet point are optional and are not taken into account for the product status calculation. When you complete these attributes, you help the retailer to get better product values.
 
 :::warning
 As soon as a product is complete for one locale, it is [automatically sent](/onboarder/articles/supplier-synchronization.html) to the Retailer Onboarder to be reviewed.
 :::
 
 :::info
-The completeness for product models is calculated by product variant. The breadcrumb shows the number of complete product variants. You can see more details by clicking on the breadcrumb.
+The statuses for product models are only calculated on product variants.
+Statuses for product model levels are not yet available, we are working on it. 
+The breadcrumb shows the number of complete product variants. You can see more details by clicking on the breadcrumb.
 :::
 
 # Via flat file upload

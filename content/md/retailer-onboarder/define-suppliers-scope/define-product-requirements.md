@@ -11,7 +11,14 @@ popular: true
 
 The goal of the Onboarder is to save time during product collection from the suppliers. The idea is not for you to manipulate product data but to receive structured data. To do so, you will be able to define the attributes you expect your suppliers to fill in for each family. The requirements for your suppliers will be defined like any other PIM channel.
 
-As soon as an Onboarder is installed alongside an Akeneo PIM, a new channel called `Onboarder` is automatically added to your PIM. Thanks to this channel, you will be able to define the attributes and the locales you want your suppliers to complete. All attributes defined as required or nice to have in a family for the `Onboarder` channel will be sent to the relevant Supplier Onboarder. For each family, the attributes sent to the Supplier Onboarder are the following:
+As soon as an Onboarder is installed alongside an Akeneo PIM, a new channel called `Onboarder` is automatically added to your PIM. Thanks to this channel, you will be able to define the attributes and the locales you want your suppliers to complete. All attributes defined as required or nice to have in a family for the `Onboarder` channel will be sent to the relevant Supplier Onboarder.
+The [product status](./supplier-synchronization.html#simple-and-transparent-statuses) changes and the product proposal is sent to the PIM when all the required attributes are completed.
+
+::: warning
+Removing an attribute from a family or changing its requirement to nice-to-have won't affect the [product status](./supplier-synchronization.html#simple-and-transparent-statuses). To send the product to the Akeneo PIM proposals, the supplier has to make a change on the product.  
+:::
+
+For each family, the attributes sent to the Supplier Onboarder are the following:
 
 * attribute used as label
 * attribute used as the main picture
@@ -21,10 +28,6 @@ As soon as an Onboarder is installed alongside an Akeneo PIM, a new channel call
 
 :::info
 The attribute used as identifier will be displayed in read-only in the Supplier Onboarder.
-:::
-
-::: success
-Only the attributes marked as 'required' are taken into account for the completeness of products. The nice to have attributes are not mandatory to synchronize the product.
 :::
 
 ::: warning
