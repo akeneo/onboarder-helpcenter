@@ -28,6 +28,7 @@ The header panel shows the following product information:
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
 * Some filters to directly access attribute groups or missing attributes
+* Comment on the product if there is
 
 :::info
 The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the different levels of the product model.
@@ -56,6 +57,7 @@ The meta data panel displays information regarding your product such as:
 ![Attributes panel highlight](../img/SUPPLIER-pef-attributes.png)
 
 The attribute panel displays all the attributes you can enrich in the Onboarder. This list is defined by the retailer.
+On the right column you can see a comment on an attribute if there is one. 
 
 ### Completeness
 All the attributes marked with the yellow bullet point are required for the retailer.
@@ -68,7 +70,7 @@ As soon as a product is complete for one locale, it is [automatically sent](/onb
 
 :::info
 The statuses for product models are only calculated on product variants.
-Statuses for product model levels are not yet available, we are working on it. 
+Statuses for product model levels are not yet available, we are working on it.
 The breadcrumb shows the number of complete product variants. You can see more details by clicking on the breadcrumb.
 :::
 
