@@ -35,6 +35,7 @@ In every product page, you can see two types of products when the PIM user proce
 
 ::: info
 Blue comments are for the approved proposals and purple comments are for the rejected proposals.
+:::
 
 <!-- CHANGE
 *Into the product grid*
