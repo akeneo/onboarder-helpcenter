@@ -28,7 +28,7 @@ The header panel shows the following product information:
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
 * Some filters to directly access attribute groups or missing attributes
-* Comment on the product if there is
+* Comment on the product if there is one
 
 :::info
 The breadcrumb is displayed only when you are on a product model page, it allows you to navigate through the different levels of the product model.
