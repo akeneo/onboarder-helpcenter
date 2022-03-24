@@ -28,16 +28,14 @@ As soon as all values of one product are complete for one locale, it is automati
 ## Filter product in the grid
 A specific status [filter](./products-grid-supplier.html#use-filters) is available in the sidebar of the product grid. It can help you to review your products by type of actions.
 
-<!--
 ## Comments
 In every product page, you can see two types of products when the PIM user process a proposal.
 * Product comments: visible on the product header,
 * Attribute comments: visible under each attributes.
 
 ::: info
-Green comments are for the validated proposals and red comments are for the rejected proposals.
-If the comment has been created before the release of the statuses, it appears in grey.
---> 
+Blue comments are for the approved proposals and purple comments are for the rejected proposals.
+:::
 
 <!-- CHANGE
 *Into the product grid*
