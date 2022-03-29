@@ -23,7 +23,8 @@ The product form contains 4 parts:
 The header panel shows the following product information:
 * The product name
 * An image of the product (if available)
-* The [status](./supplier-synchronization.html#simple-and-transparent-statuses) _(not yet available on product model levels)_
+* The [enrichment status](./supplier-synchronization.html#simple-and-transparent-statuses) _(not yet available on product model levels)_
+* The [suggestion status](./suggest-new-products.html#follow-your-product-suggestions)
 * A menu to select the [locale](https://help.akeneo.com/pim/serenity/articles/what-is-a-locale.html) to complete
 * A breadcrumb to navigate within the [product model and variants](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html)
 * The number of missing attributes
@@ -57,7 +58,7 @@ The meta data panel displays information regarding your product such as:
 ![Attributes panel highlight](../img/SUPPLIER-pef-attributes.png)
 
 The attribute panel displays all the attributes you can enrich in the Onboarder. This list is defined by the retailer.
-On the right column you can see a comment on an attribute if there is one. 
+On the right column you can see a comment on an attribute if there is one.
 
 ### Completeness
 All the attributes marked with the yellow bullet point are required for the retailer.
