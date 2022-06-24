@@ -17,15 +17,52 @@ Then, you can choose to pick the excel file corresponding to the product family 
 ![INSERT IMAGE]()
 
 # Enrich you product data
-Each file contains the product data for a product family. 
+Each excel file is specific to one product family, and they contains three sheets.
 ## Instruction sheet
+![INSERT IMAGE]()
+This is the first sheet you can see. It gather all instructions you need to understand how to use the excel file.
+In this sheet, you can find the name and code of the product family the file is dedicated to.
+You also find the color code of cells in the product sheet. These colors will help you to fill in the mandatory or optional attributes for products, product models and variants.
 
 ## Products sheet
+![INSERT IMAGE]()
+Then, you have the most important page: **the products sheet**.
+In this page, you'll find all the products, product models and variants belonging to the product family of the file when you exported with the `Export All` button.
+The sheet is composed of:
+* a 2 rows header,
+* list of products
+
+The header contains the code (1st row) and the label (2nd row) of each attribute of the product family in the catalog locale **_TO CHECK_** you used for export.
+
+To help you find your products in this sheet, the first 2 columns are locked,  
+* _akeneo_onboarder_supplier_reference_ that is the reference of your product in Akeneo Onboarder,
+* _parent_ columns that are the code of root product models and parent product models.
+All other columns are displayed in the exact same order that the product page in Akeneo Onboarder.
+
+Thanks to the color code, you can see if the attributes are mandatory or optional for the products you'll enrich.
+
+::: warning
+As explained in [this article](/onboarder/articles/suggest-new-products.html), as a supplier you're not allowed to create product models or variants in Akeneo Onboarder.
+:::
+
+::: info
+You can use this excel file to [suggest new product](/onboarder/articles/suggest-new-products.html) by filling the _akeneo_onboarder_supplier_reference_ and the required columns for a simple product.
+:::
+
 ## Attribute options sheet
+![INSERT IMAGE]()
+This sheet provide the list of all available options for attributes that are single selects or single reference entity in the [products sheet](#products-sheet). In the product sheet, the attribute are resprented in column.
+
+<!-- TO UNCOMMENT WHEN UPLOAD AVAILABLE
+::: warn
+Do not edit the values in the options sheet, otherwise the import won't work.
+:::
+
+
 # Upload the new product data
 
-
-# My kingdom for a template
+-->
+# Plain template
 ## Where can I find it?
 
 ![Import button](../img/SUPPLIER_Products_ProductGrid_focus.png)
