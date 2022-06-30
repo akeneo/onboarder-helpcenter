@@ -22,13 +22,13 @@ You can also find the name of the product family in the excel file name.
 :::
 
 ## Instruction sheet
-![INSERT IMAGE]()
+![Instruction sheet](../img/SUPPLIER_excel_instructions-sheet.png)
 This is the first sheet you can see. It gathers all instructions you need to understand how to use the excel file.
 In this sheet, you can find the **name** and code of the product family for this file.
 You also find the color code of cells in the product sheet. These colors will help you fill in the mandatory or optional attributes for products, product models, and variants.
 
 ## Products sheet
-![INSERT IMAGE]()
+![Products sheet](../img/SUPPLIER_excel_products-sheet.png)
 Then, you have the essential page: **the products sheet**.
 
 On this page, you'll find all the products, product models, and variants belonging to one product family.
@@ -55,7 +55,7 @@ You can use this excel file to [create new product suggestions](/onboarder/artic
 :::
 
 ## Attribute options sheet
-![INSERT IMAGE]()
+![Attribute options sheet](../img/SUPPLIER_excel_attribute-options-sheet.png)
 This sheet provides the list of all available options for attributes that are single selects or single reference entities in the [products sheet](#products-sheet). In the product sheet, the attributes are shown in the columns.
 
 ::: warn
