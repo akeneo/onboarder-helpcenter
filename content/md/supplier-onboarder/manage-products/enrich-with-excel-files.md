@@ -10,10 +10,13 @@ Akeneo Onboarder allows you to enrich products directly from the portal, but we 
 With a simple click on `Export All`, you can download all the product data stored in Akeneo Onboarder.
 
 Once you launch the export, you see a notification with a link to the Process tracker to find the latest export.
+
+![notification](../img/SUPPLIER_notification-export.png)
+
 You can click on `Download Generated files` when the export job ends.
 Then, you have a choice to download the excel file corresponding to one product family or to download one archive with all excel files.
 
-![INSERT IMAGE]()
+![process tracker](../img/SUPPLIER_process-tracker.png)
 
 # Enrich your product data
 Each excel file is specific to one product family, always containing three sheets.
@@ -62,11 +65,8 @@ This sheet provides the list of all available options for attributes that are si
 Do not edit the values in the options sheet; otherwise, the import won't work.
 :::
 
-<!-- TO UNCOMMENT WHEN UPLOAD AVAILABLE
+
 # Upload the new product data
-![INSERT IMAGE]()
+![Upload excel file](../img/SUPPLIER_upload-excel.png)
 You must import the same file to update your products with the new values in the excel file. That's it.
 In the Process tracker, when the upload is finished, you can see the number of updated products and skipped ones. You also get details on all errors if there are some.
-
-![INSERT IMAGE]()
--->
