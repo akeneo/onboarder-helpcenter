@@ -76,4 +76,9 @@ The breadcrumb shows the number of complete product variants. You can see more d
 :::
 
 # Via flat file upload
-By using the Onboarder, you also have the possibility to [download a template](/onboarder/articles/dwl-product-import-tpl.html) in csv or xlsx format and upload it once you have completed it.
+When you use Onboarder, you can also choose to update the products using flat files. Nothing more easy, to import you new product values, you can use the exact same excel file than the `Export all`.
+You can find more details in [this page](/onboarder/articles/enrich-with-excel-files.html). 
+
+
+<!-- By using the Onboarder, you also have the possibility to [download a template](/onboarder/articles/dwl-product-import-tpl.html) in csv or xlsx format and upload it once you have completed it.
+-->
