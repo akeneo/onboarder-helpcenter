@@ -44,8 +44,8 @@ The header contains the code (1st row) and the label (2nd row) of each attribute
 The first columns are locked to help you find your products in this sheet.
 The columns are:
 * _akeneo_onboarder_supplier_reference_ that is the reference of your product in Akeneo Onboarder,
-* _code_ that is the parent code of one [product model](../articles/what-about-products-variants.html),
-* _parent_ that is the [product model](../articles/what-about-products-variants.html) code.
+* _code_ that is the parent code of one [product model](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html),
+* _parent_ that is the [product model](https://help.akeneo.com/pim/serenity/articles/what-about-products-variants.html) code.
 All other columns are displayed in the same order that the product page in Akeneo Onboarder.
 
 Thanks to the color code, you can see if the attributes are mandatory or optional for the products you will enrich.
