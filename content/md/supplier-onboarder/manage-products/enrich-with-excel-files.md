@@ -66,10 +66,7 @@ This sheet provides the list of all available options for attributes that are si
 Do not edit the values in the options sheet, otherwise, the import will not work.
 :::
 
-
-<!--
 # Upload the new product data
 ![Upload excel file](../img/SUPPLIER_upload-excel.png)
 You must import the same file to update your products with the new values in the excel file. That's it.
-In the Process tracker, when the upload is finished, you can see the number of updated products and skipped ones. You will also see details on any errors.
--->
+In the Process tracker, when the upload is finished, you can see the number of updated and skipped products. You will also see details on any errors.
