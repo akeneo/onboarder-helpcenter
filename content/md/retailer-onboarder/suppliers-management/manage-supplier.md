@@ -24,8 +24,10 @@ When creating a supplier, you must provide the following information:
 | Families | _families_ | List all families the supplier can enrich | Required |
 | Product creation | _allow_product_creation_ | Toggle to authorize product creation by the supplier. | Optional |
 
-
 Once you've created the suppliers, you can directly see them in the suppliers' grid.
+
+For example, your excel file could look like this :
+![Supplier excel file example](../img/RETAILER_Supplier-import-example.png)
 
 ::: info  
 When you create a supplier, the supplier contact user receives a welcome email.
