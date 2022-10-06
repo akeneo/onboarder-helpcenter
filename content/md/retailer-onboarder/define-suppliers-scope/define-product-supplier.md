@@ -12,12 +12,17 @@ popular: true
 When the Onboarder bundle is installed on the PIM, 2 new attributes are automatically added on the Onboarder channel to all your families: `Supplier` and `Supplier reference` . By assigning a supplier to a product and defining the product supplier reference, this product will automatically be sent to the relevant Onboarder Supplier.
 
 :::info
-You can link a product to only one supplier.
+You can link a product to only **one** supplier.
 :::
 
 :::info
 Both supplier and supplier reference are mandatory for a product to be sent to the relevant Supplier Onboarder.
 :::
+
+::: warning
+It is not possible to unassign a product from a supplier. The supplier will always see the product on its Onboarder even if you remove the `Supplier` and `Supplier reference`.
+:::
+
 
 # Via flat files import
 
