@@ -30,7 +30,7 @@ For example, your excel file could look like this :
 ![Supplier excel file example](../img/RETAILER_Supplier-import-example.png)
 
 ::: info  
-When you create a supplier, the supplier contact user receives a welcome email.
+When you create a supplier, the supplier contact receives a welcome email.
 :::
 
 ::: warning
@@ -40,7 +40,7 @@ The suppliers cannot create product models and variants. You'll need to [link th
 ## Use the interface
 
 ::: info
-Before creating a supplier, make sure you already created the supplier contact users associated to it.
+Before creating a supplier, make sure you already created the supplier contact associated to it.
 :::
 
 You can directly create and edit the supplier from the interface by following these steps:
@@ -90,7 +90,7 @@ In both cases, you'll need to confirm this action.
 ![Modal confirmation](../img/RETAILER_DeleteSupplier_Modal.png)
 
 Once you choose to delete a supplier, there are several consequences you should be aware of:
-1. All the supplier users connected to this supplier will be unlinked from it and will no longer have access to Akeneo Onboarder,
+1. All the supplier contacts connected to this supplier will be unlinked from it and will no longer have access to Akeneo Onboarder,
 1. The _supplier_ and _supplier ref_ of products that are assigned to the deleted supplier will be purged at the same time,
 1. All data stored in Akeneo Onboarder will be deleted (products, their values and assets). Make sure they completed all required data, and you have it into the PIM before you proceed to deletion.
 
