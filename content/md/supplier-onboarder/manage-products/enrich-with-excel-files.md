@@ -8,6 +8,7 @@ popular: false
 # Export your products in an excel sheet
 Akeneo Onboarder allows you to enrich products directly from the portal, but we also wanted to keep the possibility for you to use excel files.
 With a simple click on `Export All`, you can download all the product data stored in Akeneo Onboarder.
+You can also select products you need to export and click on `Export selection`. 
 
 Once you launch the export, you see a notification with a link to the Process tracker to find the latest export.
 
@@ -17,6 +18,10 @@ You can click on `Download Generated files` when the export job ends.
 Then, you have a choice to download the excel file corresponding to one product family or to download one archive with all excel files.
 
 ![process tracker](../img/SUPPLIER_process-tracker.png)
+
+::: info 
+When you export products containing simple select or multiple select attributes, the cell will contain the label of the attribute option and the code of the attribute between brackets, for example: "Burgundy [burgundy_red]". With many options, the values will be separated by comas. 
+:::
 
 # Enrich your product data
 Each excel file is specific to one product family, always containing three sheets.
@@ -56,6 +61,10 @@ As explained in [this article](/onboarder/articles/suggest-new-products.html), a
 
 ::: info
 You can use this excel file to [create new product suggestions](/onboarder/articles/suggest-new-products.html) by filling the _akeneo_onboarder_supplier_reference_ and the required columns for a simple product.
+:::
+
+::: info
+With multiselect attribute, you have to manually add the option codes under brackets separated by comas. For example: [option_1],[option_2],[option_3]. 
 :::
 
 ## Attribute options sheet
