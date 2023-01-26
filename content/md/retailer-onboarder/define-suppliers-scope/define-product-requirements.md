@@ -39,7 +39,7 @@ Table attribute is not supported by the Onboarder and suppliers are not able to 
 :::
 
 ::: warning
-When you [create a supplier](/onboarder/articles/create-supplier.html), you can choose to allow them to create products.
+When you [create a supplier](/onboarder/articles/manage-supplier.html), you can choose to allow them to create products.
 In order to avoid conflict of data, the Onboarder blocks the **creation** of product models and variants by suppliers but you can still [assign them variants](/onboarder/articles/define-product-supplier.html).
 :::
 
