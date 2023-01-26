@@ -48,7 +48,7 @@ The answer is yes!
 
 You can run an import and it's very easy.
 On your grid:
-1. [Download a product import template](/enrich-with-excel-files.html),
+1. [Download a product import template](dwl-product-import-tpl.html),
 1. Complete the spreadsheet,
 1. On the product grid, click on the `Import` button,
 1. Drag and drop your file,
