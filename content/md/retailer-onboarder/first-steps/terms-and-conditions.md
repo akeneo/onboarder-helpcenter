@@ -1,7 +1,7 @@
 ---
-id: terms-and-conditions
+id: ethnio
 themes: 
-title: Terms and conditions
+title: Ethn.io Privacy Policy
 popular: false
 ---
 
