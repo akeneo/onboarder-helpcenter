@@ -5,7 +5,7 @@ title: Ethn.io Privacy Policy
 popular: false
 ---
 
-# Privacy Policy for the Use of Ethn.io in Akeneo SaaS Products
+# Privacy Policy for the Use of Ethn.io in Onboarder
 
 Akeneo is committed to protecting the privacy of our customers and their data. In this policy, we will explain how we collect, use, and protect personal data when using the Ethn.io tool as part of our SaaS products.
 
