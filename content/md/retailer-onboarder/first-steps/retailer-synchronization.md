@@ -46,6 +46,9 @@ As soon as you link a product to a supplier and you set a supplier reference for
 To be enriched by a supplier, a **localizable** attribute has to be set as required on the Onboarder channel.  The locales need to be activated at the channel level and linked to each supplier.
 :::
 
+::: warning
+As soon as suppliers save a new value for an attribute, they won't be able to see your changes. Also, when you empty a product value from the PIM, it won't be synchronized to the Supplier Onboarder. 
+:::
 
 ::: warning
 Once you have assigned a product to a supplier, you can't remove it from the supplier interface. 
