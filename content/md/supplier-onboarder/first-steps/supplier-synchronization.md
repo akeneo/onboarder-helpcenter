@@ -9,6 +9,11 @@ popular: false
 
 ![synchronization](../img/synchronization.svg)
 
+::: warning
+Once a product has been assigned to one supplier by the retailer, it will never be removed from the supplier side of Onboarder. 
+Moreover, when the retailer empties one product value, this change won't affect the product on the supplier side. 
+:::
+
 ## Simple and transparent statuses
 Thanks to the Supplier Onboarder, you can enrich product information that your retailer or distributor needs.
 To improve your collaboration, Akeneo Onboarder shows statuses on each product to give you more visibility on your following actions.
